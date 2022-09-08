@@ -1,0 +1,11 @@
+{
+  "jsonFile": "rewards.json",
+  "templateFile": "rewards.md",
+  "jsonName": "name",
+  "jsonNamePath": false,
+  "folderName": "0. DnD/03. Spells",
+  "topField": "",
+  "notePrefix": "",
+  "noteSuffix": "",
+  "overwrite": true
+}

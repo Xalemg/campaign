@@ -1,0 +1,122 @@
+{
+  "workspaces": {
+    "Rolito": {
+      "main": {
+        "id": "2f4228fa58a52122",
+        "type": "split",
+        "children": [
+          {
+            "id": "227f7a851e2d8499",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Golpe de los Dragones.md",
+                "mode": "preview"
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "8f941d4f1184c0b8",
+        "type": "split",
+        "children": [
+          {
+            "id": "584d5660738eaf57",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aa70909f1aa6defd",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "f60c4a193c58b0cc",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "9d00730f89e5ce55",
+        "type": "split",
+        "children": [
+          {
+            "id": "c805cfbd0f9762ad",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "75d5727e90bdffd3",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Golpe de los Dragones.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "61ff3f55896d0f13",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "1a7917736ab6e408",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bd450ae8036b5169",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "active": "227f7a851e2d8499"
+    }
+  },
+  "active": "Rolito"
+}

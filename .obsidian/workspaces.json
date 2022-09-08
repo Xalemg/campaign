@@ -1,0 +1,411 @@
+{
+  "workspaces": {
+    "Home": {
+      "main": {
+        "id": "730dc61699301a6c",
+        "type": "split",
+        "children": [
+          {
+            "id": "51b107e801bf1afb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "e83a0067b0ede81d",
+        "type": "split",
+        "children": [
+          {
+            "id": "cbc0759e864775d2",
+            "type": "tabs",
+            "dimension": 24.81549815498155,
+            "children": [
+              {
+                "id": "889705efc27f9250",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "sesion",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "ed2fc0f67e30403b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. Campañas/Aventuras de la Chumipower/Favoritos Chumipower Prep.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "05415999ff8599ad",
+            "type": "tabs",
+            "dimension": 75.18450184501845,
+            "children": [
+              {
+                "id": "f0038bf8b67e3834",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 260
+      },
+      "right": {
+        "id": "e1f9a392438c66b9",
+        "type": "split",
+        "children": [
+          {
+            "id": "f69e9d4bc326690e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3de15a67613d7e57",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "0. DnD/Pantalla del Master/Pantalla del Master.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "46ad7ba92c73d9e3",
+                "type": "leaf",
+                "state": {
+                  "type": "DICE_ROLLER_VIEW",
+                  "state": {}
+                }
+              },
+              {
+                "id": "190b8e384e6d2d41",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false
+                  }
+                }
+              },
+              {
+                "id": "7ef03db5f954ba89",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "0. DnD/Pantalla del Master/Pantalla del Master.md",
+                    "linksCollapsed": true,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "6f733fbf25d0ae5e",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1600f9ae0c27b17b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "0. DnD/Pantalla del Master/Pantalla del Master.md",
+                    "mode": "preview",
+                    "source": true
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "ebbea00de19b7f60",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "0. DnD/Pantalla del Master/Pantalla del Master.md"
+                  }
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 319.5
+      },
+      "active": "7ef03db5f954ba89"
+    },
+    "Pantalla ChumiPower": {
+      "main": {
+        "id": "730dc61699301a6c",
+        "type": "split",
+        "children": [
+          {
+            "id": "51b107e801bf1afb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Campañas/Sesiones/Sesiones.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "e83a0067b0ede81d",
+        "type": "split",
+        "children": [
+          {
+            "id": "cbc0759e864775d2",
+            "type": "tabs",
+            "dimension": 24.30939226519337,
+            "children": [
+              {
+                "id": "f0038bf8b67e3834",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "ed2fc0f67e30403b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2. Campañas/Aventuras de la Chumipower/Favoritos Chumipower Prep.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "889705efc27f9250",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "sesion",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "05415999ff8599ad",
+            "type": "tabs",
+            "dimension": 75.69060773480662,
+            "children": [
+              {
+                "id": "6ae8e6662ea75185",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "0. DnD/Pantalla del Master/NPC Generator.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "acbfbbc82f94e061",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Mapa de las Islas Shamal.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 336
+      },
+      "right": {
+        "id": "e1f9a392438c66b9",
+        "type": "split",
+        "children": [
+          {
+            "id": "f69e9d4bc326690e",
+            "type": "tabs",
+            "dimension": 63.82978723404255,
+            "children": [
+              {
+                "id": "3de15a67613d7e57",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "2. Campañas/Sesiones/Sesiones.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "46ad7ba92c73d9e3",
+                "type": "leaf",
+                "state": {
+                  "type": "DICE_ROLLER_VIEW",
+                  "state": {}
+                }
+              },
+              {
+                "id": "190b8e384e6d2d41",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false
+                  }
+                }
+              },
+              {
+                "id": "7ef03db5f954ba89",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "2. Campañas/Sesiones/Sesiones.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "6f733fbf25d0ae5e",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1600f9ae0c27b17b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "0. DnD/Pantalla del Master/Pantalla del Master.md",
+                    "mode": "preview",
+                    "source": true
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "ebbea00de19b7f60",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "2. Campañas/Sesiones/Sesiones.md"
+                  }
+                }
+              }
+            ],
+            "currentTab": 5
+          },
+          {
+            "id": "896ebbea0709692e",
+            "type": "tabs",
+            "dimension": 36.17021276595745,
+            "children": [
+              {
+                "id": "d07908acf86eb6af",
+                "type": "leaf",
+                "state": {
+                  "type": "FANTASY_CALENDAR",
+                  "state": {}
+                }
+              },
+              {
+                "id": "c5413eff8c79cd52",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-creature-view",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 319.5
+      },
+      "active": "d07908acf86eb6af"
+    }
+  },
+  "active": "Home"
+}

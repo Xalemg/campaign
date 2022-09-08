@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "d018907ec4e58bc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "096e840ef7ae1343",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "DnD/Mundos/Aretries/Facciones/Facciones.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c900356100364749",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a9ba866fd34fe708",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "f9aa5f64c377b8b0",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "4214925ab36d4dfb",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "def998a9f7cde09e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "f5194939fe7644f0",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "DnD/Mundos/Aretries/Facciones/Facciones.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "b013898ac9b9dfd2",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "DnD/Mundos/Aretries/Facciones/Facciones.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "d044d1d8fc047612",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "DnD/Mundos/Aretries/Facciones/Facciones.md"
+          }
+        }
+      },
+      {
+        "id": "3262154145d3b58f",
+        "type": "leaf",
+        "state": {
+          "type": "DICE_ROLLER_VIEW",
+          "state": {}
+        }
+      },
+      {
+        "id": "7cfbad59cccb4dd3",
+        "type": "leaf",
+        "state": {
+          "type": "initiative-tracker-view",
+          "state": {}
+        }
+      },
+      {
+        "id": "1b2ee84036635982",
+        "type": "leaf",
+        "state": {
+          "type": "FANTASY_CALENDAR",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 5
+  },
+  "active": "096e840ef7ae1343",
+  "lastOpenFiles": [
+    "DnD/Mundos/Aretries/Facciones/Facciones.md",
+    "DnD/Mundos/Aretries/NPCs/Marcos Alacazar.md",
+    "DnD/Mundos/Aretries/NPCs/NPCs.md",
+    "DnD/Mundos/Aretries/NPCs/Carlos Baedoz.md",
+    "DnD/Mundos/Aretries/NPCs/Capitan Garra (Xekar).md",
+    "DnD/Mundos/Aretries/Islas Shamal/Islas Shamal.md",
+    "DnD/Mundos/Aretries/Islas Shamal/Facciones de las  islas/Facciones de las  islas.md",
+    "Plantillas/Sesión.md",
+    "Plantillas/Localización.md",
+    "DnD/Mundos/Aretries/Islas Shamal/Lugares/Lugares.md"
+  ]
+}

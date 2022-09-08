@@ -1,0 +1,159 @@
+/*
+Hey!!
+
+Full credit to the original snippet goes to Manedblackwolf!
+Inspiration for this can be attributed to SlRvb!
+*/
+
+.theme-light .kanban {
+  --kanbanbgodd: #ffffff70; /* odd numbered item*/
+  --kanbanbgeven: #ffffff10; /* even numbered item*/
+  --kanbanbgchild: #ffffff04; /* nesting numbered item*/
+  --kanbanhover:#C7C8C910;
+  --subtcol:black;
+}
+
+.theme-dark .kanban {
+  --kanbanbgodd: #4F4F4F05;
+  --kanbanbgeven: #4F4F4F30;
+  --kanbanbgchild: #20202090;
+  --kanbanhover:#4F4F4F50;
+  --subtcol:white;
+}
+
+.kanban .head {
+	display: block;
+	padding: 2px 5px 2px 5px;
+	border-radius: 0px;
+	background-color: #483699; /*Change this to whatever colour! #8e9951 #483699*/
+	color: white;
+}
+
+.kanban .sub {
+	display: block;
+	padding: 2px 5px 2px 5px;
+	border-radius: 0px;
+	background-color: #48369950; /*Change this to whatever colour! #8e995150 #48369950*/
+	color: var(--subtcol);
+}
+
+.kanban ul {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: var(--background-secondary);
+  padding-left: 0.5rem;
+  padding-right: 0.1rem;
+  padding-bottom: 0.7rem;
+  padding-top: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.kanban div > ul > li{
+  padding-top: 0.1rem;
+  padding-left: 0.1rem;
+}
+
+.kanban .list-collapse-indicator.collapse-indicator.collapse-icon{
+  padding-left: 50px;
+  color: white;
+  padding-right: 0rem;
+}
+.kanban .task-list-item-checkbox {
+margin-left: 1.55rem;
+margin-right: 0.4rem;
+}
+
+.kanban ul h1,
+.kanban ul h2,
+.kanban ul h3,
+.kanban ul h4,
+.kanban ul h5,
+.kanban ul h6{
+    margin-block-start: 0rem;
+     margin-block-end: 0rem;
+    margin-left: 0
+}
+
+.kanban ul li {
+  flex: 1;
+  padding-left: 0px;
+  padding-right: 9px;
+  list-style: none;
+}
+
+.kanban ul ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem;
+  margin-right: 2.5rem;
+  margin-top: 0rem;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.kanban ul ul li {
+  width: 100%;
+  display: block;
+  margin-bottom: 0px;
+  padding: 0.1rem;
+}
+
+.kanban ul .markdown-preview-sizer.markdown-preview-section{
+  min-height: 0!important;
+  padding: 0!important;
+}
+
+.kanban ul .internal-embed.is-loaded {
+  padding: 0 !important;
+  margin-bottom: 0px!important;
+}
+
+.kanban ul .markdown-preview-view{
+    padding: 0px 1px 1px 10px;
+}
+
+.kanban ul ul ul {
+  margin-right: 0;
+}
+
+.kanban ul ul::before {
+  border-left: 0;
+}
+
+.markdown-preview-view.is-readable-line-width.kanban
+.markdown-preview-sizer
+> div
+> ul {
+  max-width: 100%;
+}
+
+.kanban ul li .list-collapse-indicator.collapse-indicator.collapse-icon {
+margin-right: 8px;
+}
+.kanban ul li .list-collapse-indicator.collapse-indicator.collapse-icon + *{
+margin-left: 0px;
+}
+.kanban ul li .list-collapse-indicator.collapse-indicator.collapse-icon + span > div.markdown-embed .markdown-preview-view {
+padding-left: 0px;
+}
+
+
+.kanban ul ul li:nth-child(odd) {
+  background: var(--kanbanbgodd);
+  border-top: 1px solid var(--background-secondary);
+}
+
+.kanban ul ul li:nth-child(even) {
+  background: var(--kanbanbgeven);
+  border-top: 1px solid var(--background-secondary);
+}
+
+.kanban ul ul {
+  background: var(--kanbanbgchild);
+}
+.kanban ul ul li:hover {
+  background: var(--kanbanhover);
+}

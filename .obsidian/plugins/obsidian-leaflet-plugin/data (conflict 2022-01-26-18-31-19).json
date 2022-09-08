@@ -1,0 +1,1019 @@
+{
+  "mapMarkers": [
+    {
+      "id": "riven",
+      "lastAccessed": 1640274411553,
+      "markers": [
+        {
+          "id": "ID_6a888b585a39",
+          "type": "Punto de Interes",
+          "loc": [
+            -3.609375,
+            3.9531405703308384
+          ],
+          "link": "Palacio de las flores",
+          "layer": "%5B%5BMapa%20Riven.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2998795a8b1b",
+          "type": "Punto de Interes",
+          "loc": [
+            -3.640625,
+            10.273001530736526
+          ],
+          "link": "Isla de Riven#Embarcadero abandonado",
+          "layer": "%5B%5BMapa%20Riven.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_68386b99298a",
+          "type": "Punto de Interes",
+          "loc": [
+            -5.609375,
+            7.421823098897205
+          ],
+          "link": "Isla de Riven#Cementerio",
+          "layer": "%5B%5BMapa%20Riven.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_48398979eaf8",
+          "type": "Punto de Interes",
+          "loc": [
+            -3.9921875,
+            7.288992952522255
+          ],
+          "link": "Isla de Riven#Cienaga",
+          "layer": "%5B%5BMapa%20Riven.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cafba9db088b",
+          "type": "Punto de Interes",
+          "loc": [
+            -4.125,
+            5.968723011426547
+          ],
+          "link": "Isla de Riven#Bosque Brumoso",
+          "layer": "%5B%5BMapa%20Riven.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_29f9a808c9fb",
+          "type": "Pueblo",
+          "loc": [
+            -6.3125,
+            8.859393684397006
+          ],
+          "link": "Isla de Riven#Pueblo de Riven",
+          "layer": "%5B%5BMapa%20Riven.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": 5.1,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a486b79c829",
+          "type": "Punto de Interes",
+          "loc": [
+            -6.28125,
+            5.187529064617564
+          ],
+          "link": "Isla de Riven#Barco del culto",
+          "layer": "%5B%5BMapa%20Riven.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "1. Alamanac/Lugares/Zonas/Isla de Riven.md"
+      ]
+    },
+    {
+      "id": "Palacio Flores Planta Baja",
+      "lastAccessed": 1642324416104,
+      "markers": [
+        {
+          "id": "ID_e83a088b2bca",
+          "type": "default",
+          "loc": [
+            -7.625,
+            6.640575174941317
+          ],
+          "link": "Palacio de las flores#Patio de entrada",
+          "layer": "%5B%5BPalacio%20Flores%20Planta%20Baja.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5145239844990851,
+            0.7613104524180967
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b3b1a4a8b29",
+          "type": "default",
+          "loc": [
+            -5.703125,
+            6.546860467691218
+          ],
+          "link": "Palacio de las flores#Recibidor",
+          "layer": "%5B%5BPalacio%20Flores%20Planta%20Baja.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5072627965281331,
+            0.5694227769110765
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a3b5beaba39",
+          "type": "default",
+          "loc": [
+            -3.85791015625,
+            6.53881960283892
+          ],
+          "link": "Palacio de las flores#Sala principal",
+          "layer": "%5B%5BPalacio%20Flores%20Planta%20Baja.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_59bb4a4a78c9",
+          "type": "default",
+          "loc": [
+            -3.82666015625,
+            9.710200504340314
+          ],
+          "link": "Palacio de las flores#Jardin Exhuberante",
+          "layer": "%5B%5BPalacio%20Flores%20Planta%20Baja.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e91b19d98acb",
+          "type": "default",
+          "loc": [
+            -5.703125,
+            10.984377784791327
+          ],
+          "link": "Palacio de las flores#Capilla de Mieliki",
+          "layer": "%5B%5BPalacio%20Flores%20Planta%20Baja.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.8510898041484806,
+            0.5694227769110765
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3a29c97a0a4a",
+          "type": "default",
+          "loc": [
+            -4.35791015625,
+            2.492409636719959
+          ],
+          "link": "Palacio de las flores#Escaleras al sotano",
+          "layer": "%5B%5BPalacio%20Flores%20Planta%20Baja.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b4afbb93a5a",
+          "type": "default",
+          "loc": [
+            -3.68603515625,
+            3.523522617808581
+          ],
+          "link": "Palacio de las flores#Jardin putrido",
+          "layer": "%5B%5BPalacio%20Flores%20Planta%20Baja.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a8e868482bcb",
+          "type": "default",
+          "loc": [
+            -1.859375,
+            6.609352163514771
+          ],
+          "link": "Palacio de las flores#Campamento cultista",
+          "layer": "%5B%5BPalacio%20Flores%20Planta%20Baja.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5121047681173673,
+            0.1856474258970359
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "1. Alamanac/11. Lugares/Punto de interes/Palacio de las flores.md"
+      ]
+    },
+    {
+      "id": "Palacio Flores catacumbas",
+      "lastAccessed": 1642324416104,
+      "markers": [
+        {
+          "id": "ID_0aab1afb3989",
+          "type": "Punto de Interes",
+          "loc": [
+            -18.59375,
+            11.21881386809872
+          ],
+          "link": "Palacio de las flores#Recibidor subterraneo",
+          "layer": "%5B%5BSubterraneos%20palacio.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.41028805003332464,
+            0.85
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_d8cbb969e8ea",
+          "type": "Punto de Interes",
+          "loc": [
+            -18.6845703125,
+            5.3959641528182996
+          ],
+          "link": "Palacio de las flores#Cocina",
+          "layer": "%5B%5BSubterraneos%20palacio.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_1969bb484828",
+          "type": "Punto de Interes",
+          "loc": [
+            -11.2470703125,
+            4.270504302507506
+          ],
+          "link": "Palacio de las flores#Laboratorio",
+          "layer": "%5B%5BSubterraneos%20palacio.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_ca88688b5b98",
+          "type": "Punto de Interes",
+          "loc": [
+            -15.8125,
+            14.593788320859232
+          ],
+          "link": "Palacio de las flores#Cuarto de las criaturas",
+          "layer": "%5B%5BSubterraneos%20palacio.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5337156871628519,
+            0.7228571428571429
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_eb7b7b2b88c8",
+          "type": "Punto de Interes",
+          "loc": [
+            -15.4375,
+            5.656186131901278
+          ],
+          "link": "Palacio de las flores#Cuarto de los cultistas",
+          "layer": "%5B%5BSubterraneos%20palacio.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.20685480710953247,
+            0.7057142857142857
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_e85a99382939",
+          "type": "Punto de Interes",
+          "loc": [
+            -9.125,
+            9.999693433126136
+          ],
+          "link": "Palacio de las flores#Antecamara del Zenit",
+          "layer": "%5B%5BSubterraneos%20palacio.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.36570307412575587,
+            0.41714285714285715
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_a9d9d8c9fa58",
+          "type": "Punto de Interes",
+          "loc": [
+            -10.5625,
+            16.68741058466179
+          ],
+          "link": "Palacio de las flores#Bilbioteca",
+          "layer": "%5B%5BSubterraneos%20palacio.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6102824442390598,
+            0.4828571428571429
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "1. Alamanac/11. Lugares/Punto de interes/Palacio de las flores.md"
+      ]
+    },
+    {
+      "id": "Kalithir",
+      "lastAccessed": 1643108767628,
+      "markers": [
+        {
+          "id": "ID_fa48bbb8ebfb",
+          "type": "Punto de Interes",
+          "loc": [
+            -16.934290885925293,
+            39.11352624636898
+          ],
+          "link": "Kalithir (Ciudad de escaleras)#El Parque de crin(Templo de Adur)",
+          "layer": "%5B%5BKalirhir%20mapa.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6518921041061496,
+            0.5017567669903791
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_cb8a6a3af948",
+          "type": "Punto de Interes",
+          "loc": [
+            -27.1875,
+            30.593729239558883
+          ],
+          "link": "Kalithir (Ciudad de escaleras)#Ultimo Bastión",
+          "layer": "%5B%5BKalirhir%20mapa.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5098954873259813,
+            0.8055555555555556
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a90839bae82b",
+          "type": "Punto de Interes",
+          "loc": [
+            -19.3125,
+            34.18748754373533
+          ],
+          "link": "Kalithir (Ciudad de escaleras)#El Callizo",
+          "layer": "%5B%5BKalirhir%20mapa.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5697914590622555,
+            0.5722222222222222
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ab9b58aa7aa9",
+          "type": "Punto de Interes",
+          "loc": [
+            -19.21875,
+            14.906270760441117
+          ],
+          "link": "Kalithir (Ciudad de escaleras)#La torre Apagada",
+          "layer": "%5B%5BKalirhir%20mapa.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.24843784600735194,
+            0.5694444444444444
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c87bb9d93ada",
+          "type": "Punto de Interes",
+          "loc": [
+            -5.25,
+            20.34375
+          ],
+          "link": "Kalithir (Ciudad de escaleras)#El mercado extranjero",
+          "layer": "%5B%5BKalirhir%20mapa.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.3390625,
+            0.15555555555555556
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b8199bcbbb4a",
+          "type": "Punto de Interes",
+          "loc": [
+            -10.312504680750392,
+            25.799999271871528
+          ],
+          "link": "Kalithir (Ciudad de escaleras)#El mercado",
+          "layer": "%5B%5BKalirhir%20mapa.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.4299999878645255,
+            0.30555569424445606
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_68ba2a3a0b39",
+          "type": "Punto de Interes",
+          "loc": [
+            -5.5,
+            8.624919855712406
+          ],
+          "link": "Kalithir (Ciudad de escaleras)#Los muelles",
+          "layer": "%5B%5BKalirhir%20mapa.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.14374866426187344,
+            0.16296296296296298
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_19da0bebd949",
+          "type": "Punto de Interes",
+          "loc": [
+            -8,
+            22.749951913427445
+          ],
+          "link": "Kalithir (Ciudad de escaleras)#Las Escaleras talladas",
+          "layer": "%5B%5BKalirhir%20mapa.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.37916586522379075,
+            0.23703703703703705
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_09185819880b",
+          "type": "Punto de Interes",
+          "loc": [
+            -6.84375,
+            19.14064904328628
+          ],
+          "link": "Kalithir (Ciudad de escaleras)#Tabernas Kalverin",
+          "layer": "%5B%5BKalirhir%20mapa.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.31901081738810466,
+            0.20277777777777778
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "1. Alamanac/11. Lugares/Ciudades/Kalithir (Ciudad de escaleras).md"
+      ]
+    },
+    {
+      "id": "islas-con-leyendas",
+      "lastAccessed": 1643218203041,
+      "markers": [
+        {
+          "id": "ID_bbfb59daa8aa",
+          "type": "Isla",
+          "loc": [
+            -9.125,
+            6.0602500865351345
+          ],
+          "link": "Isla de Bolgog",
+          "layer": "%5B%5BIslas.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.31272019571268267,
+            0.66591471108719
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": 6,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3968498b1b68",
+          "type": "Isla",
+          "loc": [
+            -6.84375,
+            2.093712140879198
+          ],
+          "link": "Hismal",
+          "layer": "%5B%5BIslas.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.10803944740110633,
+            0.49943603331539255
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": 6,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fab878c99a9a",
+          "type": "Isla",
+          "loc": [
+            -7.296875,
+            14.73459596247125
+          ],
+          "link": "Isla de Altalos",
+          "layer": "%5B%5BIslas.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.8027218833103555,
+            0.5610103387926327
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": 6,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_094b6bb88998",
+          "type": "Isla",
+          "loc": [
+            -5.609375,
+            9.20318584473846
+          ],
+          "link": "Isla de Adur",
+          "layer": "%5B%5BIslas.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.47231266624977497,
+            0.4583864963305657
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": 6,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ebdabb0aea79",
+          "type": "Isla",
+          "loc": [
+            -11.171875,
+            11.21876601177328
+          ],
+          "link": "Isla de Bas'loch y los mares del Sur",
+          "layer": "%5B%5BIslas.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5561400179922259,
+            0.8004659712041223
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": 6,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aa5b5b9b6b58",
+          "type": "Ciudad",
+          "loc": [
+            -4.84375,
+            9.231102890273451
+          ],
+          "link": "Puerto Kalabor",
+          "layer": "%5B%5BIslas.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.47634210820839007,
+            0.3534821240360084
+          ],
+          "description": null,
+          "minZoom": 6.1,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_89eb08ea482a",
+          "type": "Zona",
+          "loc": [
+            -4.671875,
+            14.277316707770856
+          ],
+          "link": "Isla de Riven",
+          "layer": "%5B%5BIslas.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.73673614312157,
+            0.3409392099573113
+          ],
+          "description": null,
+          "minZoom": 6.1,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_589afa4ba81a",
+          "type": "Ciudad",
+          "loc": [
+            -6.171875,
+            10.421887169003115
+          ],
+          "link": "Kalithir (Ciudad de escaleras)",
+          "layer": "%5B%5BIslas.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5377887956187491,
+            0.4504046419168494
+          ],
+          "description": null,
+          "minZoom": 6.1,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_196afac9fa69",
+          "type": "Ciudad",
+          "loc": [
+            -6.29296875,
+            9.71483834155417
+          ],
+          "link": "Notouck",
+          "layer": "%5B%5BIslas.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5013037587735664,
+            0.4592416950177497
+          ],
+          "description": null,
+          "minZoom": 6.1,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c9e87bcab948",
+          "type": "Isla",
+          "loc": [
+            -2.9375,
+            4.440333728053197
+          ],
+          "link": "Isla de Roncor",
+          "layer": "%5B%5BIslas%20Peor%20calidad.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": 6,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "1. Alamanac/6. Aretries/Islas Shamal/Mapa de las Islas Shamal.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#dddddd",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    },
+    "isImage": false
+  },
+  "markerIcons": [
+    {
+      "type": "Isla",
+      "iconName": "water",
+      "color": "#008f37",
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [
+        "isla",
+        "lugar"
+      ],
+      "minZoom": null,
+      "maxZoom": 6
+    },
+    {
+      "type": "Ciudad",
+      "iconName": "city",
+      "color": "#d6d6d6",
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [
+        "ciudad",
+        "lugar"
+      ],
+      "minZoom": 6,
+      "maxZoom": null
+    },
+    {
+      "type": "Mazmorra",
+      "iconName": "dungeon",
+      "color": "#fe3939",
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [
+        "lugar",
+        "mazmorra"
+      ],
+      "minZoom": 5.1,
+      "maxZoom": null
+    },
+    {
+      "type": "Pueblo",
+      "iconName": "home",
+      "color": "#dddddd",
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [
+        "pueblo",
+        "lugar"
+      ],
+      "minZoom": 5.6,
+      "maxZoom": null
+    },
+    {
+      "type": "Zona",
+      "iconName": "leaf",
+      "color": "#fbff00",
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [
+        "lugar",
+        "zona"
+      ],
+      "minZoom": 6,
+      "maxZoom": null
+    },
+    {
+      "type": "Punto de Interes",
+      "iconName": "place-of-worship",
+      "color": "#4d6aff",
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [
+        "punto_de_interes",
+        "lugar"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": true,
+  "layerMarkers": true,
+  "previousVersion": "4.11.0",
+  "version": {
+    "major": 4,
+    "minor": 11,
+    "patch": 0
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {
+    "darkMode": "false",
+    "defaultZoom": 5,
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "100%",
+    "image": "[[Islas Peor calidad.jpg]]",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "[[Islas Peor calidad.jpg]]"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [],
+    "maxZoom": 9.5,
+    "minZoom": 1,
+    "osmLayer": true,
+    "overlay": [],
+    "overlayColor": "blue",
+    "scale": 32,
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 1,
+    "zoomFeatures": false,
+    "id": "islas-con-leyendas",
+    "lat": 50,
+    "long": 50,
+    "unit": "kms",
+    "filterTag": []
+  },
+  "enableDraw": false,
+  "defaultUnitType": "metric",
+  "defaultTile": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+}

@@ -1,0 +1,12 @@
+{
+  "baseFontSize": 15,
+  "translucency": false,
+  "cssTheme": "ITS Theme",
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "custom-map",
+    "links sin titulo de fichero",
+    "supercharged-links-gen"
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "192297b4ba9d20fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "753f381eea2423af",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1. Alamanac/12. Panteón/12. Panteón.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e63af9168c0d46b3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9f4c993534b65d8c",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "84bfb470e013fa5a",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "996d71327faf92e3",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "1934c6734f8676dc",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "4d44dd0950127840",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "82bb45536bc7e72e",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "1. Alamanac/12. Panteón/12. Panteón.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "9d6503d9757f491c",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "1. Alamanac/12. Panteón/12. Panteón.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "380d7ce59dab5556",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "1. Alamanac/12. Panteón/12. Panteón.md"
+          }
+        }
+      },
+      {
+        "id": "ad2c4700b9db48d1",
+        "type": "leaf",
+        "state": {
+          "type": "DICE_ROLLER_VIEW",
+          "state": {}
+        }
+      },
+      {
+        "id": "128afdda00274d9f",
+        "type": "leaf",
+        "state": {
+          "type": "FANTASY_CALENDAR",
+          "state": {}
+        }
+      },
+      {
+        "id": "9961bd3369fdeee0",
+        "type": "leaf",
+        "state": {
+          "type": "initiative-tracker-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 5
+  },
+  "active": "753f381eea2423af",
+  "lastOpenFiles": [
+    "1. Alamanac/12. Panteón/12. Panteón.md",
+    "1. Alamanac/12. Panteón/Tiamat.md",
+    "1. Alamanac/12. Panteón/Bahamut.md",
+    "1. Alamanac/1. Alamanac.md",
+    "1. Alamanac/12. Panteón/Panteón.md",
+    "1. Alamanac/14. Facciones/Los Martillos.md",
+    "1. Alamanac/15. NPCs/Fernus.md",
+    "Mapa de las Islas Shamal.md",
+    "Excalidraw/Drawing 2022-03-04 23.04.05.excalidraw.md",
+    "Adjuntos/Adjuntos.md"
+  ]
+}

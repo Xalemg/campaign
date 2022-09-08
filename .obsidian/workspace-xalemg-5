@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "192297b4ba9d20fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ce2963c6e9a0d40",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1. Alamanac/11. Lugares/Ciudades/Kalithir (Ciudad de escaleras).md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4fe412573afcee12",
+    "type": "split",
+    "children": [
+      {
+        "id": "59f994348d090783",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4dd4bcc118e063c0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "65206ae49d7d0568",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "hazd",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e4b7020624be883c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a755300af693a018",
+    "type": "split",
+    "children": [
+      {
+        "id": "31ca5a7d36a1b251",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8cc8756cb5c4b49e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1. Alamanac/11. Lugares/Ciudades/Kalithir (Ciudad de escaleras).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "bebaa94556c55f0f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1. Alamanac/11. Lugares/Ciudades/Kalithir (Ciudad de escaleras).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "9676e8be5ba6a617",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "85dca5addda6a51b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1. Alamanac/11. Lugares/Ciudades/Kalithir (Ciudad de escaleras).md"
+              }
+            }
+          },
+          {
+            "id": "9530c8ea3c9ba3c4",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "7db01661a64c7449",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
+          },
+          {
+            "id": "d1d7e25720a25f4e",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "e51ab5ae1159bead",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ab6fa4753a10694",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 449.26690673828125,
+    "collapsed": true
+  },
+  "active": "3ce2963c6e9a0d40",
+  "lastOpenFiles": [
+    "1. Alamanac/11. Lugares/Ciudades/Kalithir (Ciudad de escaleras).md",
+    "Mapa de las Islas Shamal.md",
+    "1. Alamanac/15. NPCs/15. NPCs.md",
+    "1. Alamanac/15. NPCs/Marcos Alacazar.md",
+    "1. Alamanac/15. NPCs/Fernus.md",
+    "1. Alamanac/15. NPCs/Hazduul.md",
+    "1. Alamanac/15. NPCs/Carlos Baedoz.md",
+    "1. Alamanac/15. NPCs/Anvil Carrillo (Gundren  Ur'Gray).md",
+    "1. Alamanac/15. NPCs/Capitan Garra (Xekar).md",
+    "Plantillas/NPC/NPC.md"
+  ]
+}

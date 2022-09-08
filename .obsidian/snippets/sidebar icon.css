@@ -1,0 +1,81 @@
+
+
+/* Hide Note Icon*/
+.workspace-tab-header[data-type="markdown"] svg
+{ display: none; }
+
+/* Replace Icons */
+.workspace-tab-header[data-type="markdown"] {
+    padding-top: 5px;
+}
+.workspace-tab-header[data-type="markdown"]::before {
+    content: "🗺️";
+    margin: 0px 10.5px;
+    padding-top: 0px;
+}
+/* Replace Icons */
+
+/* 
+    MAPA ISLAS SHAMAL
+*/
+.workspace-tab-header[data-type="markdown"][aria-label*="Mapa de las Islas Shamal"]::before {
+    content: "🗺️";
+
+}
+
+/* Replace Icons */
+.workspace-tab-header[data-type="markdown"] .workspace-tab-header-inner {
+    padding: 0 ;
+
+}
+
+/* 
+    PANTALLA MASTER
+*/
+
+/* Hide Note Icon*/
+.workspace-tab-header[data-type="markdown"][aria-label*="Pantalla del Master"] svg
+{ display: none; }
+
+
+/* Replace Icons */
+.workspace-tab-header[data-type="markdown"][aria-label*="Pantalla del Master"]::before {
+    content: "📖";
+}
+
+
+}
+
+/* 
+    Favoritos chumipower
+*/
+
+
+/* Hide Note Icon*/
+.workspace-tab-header[data-type="markdown"][aria-label*="Favoritos Chumipower Prep"] svg
+{ display: none; }
+
+
+
+/* Replace Icons */
+.workspace-tab-header[data-type="markdown"][aria-label*="Favoritos Chumipower Prep"]::before {
+    content: "⭐";
+}
+
+
+
+
+
+/* 
+    NPC Generator
+*/
+
+/* Hide Note Icon*/
+.workspace-tab-header[data-type="markdown"] svg
+{ display: none; }
+
+
+/* Replace Icons */
+.workspace-tab-header[data-type="markdown"][aria-label*="NPC Generator"]::before {
+    content: "👤";
+}

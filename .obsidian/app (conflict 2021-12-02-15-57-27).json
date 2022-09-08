@@ -1,0 +1,10 @@
+{
+  "promptDelete": false,
+  "fileSortOrder": "byCreatedTime",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true,
+  "foldIndent": true,
+  "foldHeading": true,
+  "readableLineLength": false
+}

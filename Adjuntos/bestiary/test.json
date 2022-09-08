@@ -1,0 +1,163 @@
+[{
+	"name": "Battle Mage",
+	"environment": [
+		"any"
+	],
+	"size": "M",
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			"any race"
+		]
+	},
+	"source": "CCodex",
+	"alignment": [
+		"A"
+	],
+	"ac": [
+		12,
+		{
+			"ac": 15,
+			"condition": "with {@spell mage armor}",
+			"braces": true
+		}
+	],
+	"hp": {
+		"average": 66,
+		"formula": "12d8 + 12"
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 11,
+	"dex": 14,
+	"con": 12,
+	"int": 18,
+	"wis": 14,
+	"cha": 12,
+	"save": {
+		"con": "+3",
+		"int": "+6"
+	},
+	"skill": {
+		"arcana": "+6",
+		"history": "+6"
+	},
+	"passive": 12,
+	"languages": [
+		"Common"
+	],
+	"cr": "4",
+	"page": 397,
+	"trait": [
+		{
+			"name": "Overchannel",
+			"entries": [
+				"As a bonus action, a battle mage can overchannel its spells until the start of its next turn. A creature has disadvantage on its saving throws against an overchanneled spell. Attack rolls against the battle mage have advantage until the start of its next turn."
+			]
+		},
+		{
+			"name": "Tactical Casting",
+			"entries": [
+				"When a battle mage casts a spell that causes damage or that forces a creature to make a saving throw, it can choose itself and any number of allies to be immune to the damage caused by the spell and to automatically succeed on the required saving throw."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Shortsword",
+			"entries": [
+				"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+			]
+		}
+	],
+	"reaction": [
+		{
+			"name": "Self-Defense Casting",
+			"entries": [
+				"When the battle mage is hit by a weapon attack, it can cast a cantrip against the attacker."
+			]
+		}
+	],
+	"fluff": {
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/CCodex/Battlemage.jpg"
+				}
+			}
+		],
+		"entries": [
+			{
+				"type": "entries",
+				"entries": [
+					"Battle mages are open vessels through which arcane energy pours raw, unfettered, and without regard for self-preservation. The art of the battle mage takes as much practice as any other type of spellcasting—perhaps more so. Many nations count battle mages among their ranks, with most establishing and maintaining an elite college or academy to properly train these living weapons. Just as much time goes into indoctrinating the battle mages into the patriotic beliefs as in the magic itself, for no group wants a powerful weapon turned against its creator."
+				]
+			}
+		]
+	},
+	"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/CCodex/battlemage_token.png",
+	"miscTags": [
+		"MW"
+	],
+	"damageTags": [
+		"P"
+	],
+	"languageTags": [
+		"C"
+	],
+	"spellcasting": [
+		{
+			"name": "Spellcasting",
+			"headerEntries": [
+				"The battle mage is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The battle mage has the following wizard spells prepared:"
+			],
+			"spells": {
+				"0": {
+					"spells": [
+						"{@spell fire bolt}",
+						"{@spell mage hand}",
+						"{@spell poison spray}",
+						"{@spell shocking grasp}"
+					]
+				},
+				"1": {
+					"slots": 4,
+					"spells": [
+						"{@spell burning hands}",
+						"{@spell mage armor}",
+						"{@spell magic missile}",
+						"{@spell thunderwave}"
+					]
+				},
+				"2": {
+					"slots": 3,
+					"spells": [
+						"{@spell flaming sphere}",
+						"{@spell misty step}",
+						"{@spell shatter}"
+					]
+				},
+				"3": {
+					"slots": 3,
+					"spells": [
+						"{@spell counterspell}",
+						"{@spell fireball}",
+						"{@spell lightning bolt}"
+					]
+				},
+				"4": {
+					"slots": 1,
+					"spells": [
+						"{@spell ice storm}"
+					]
+				}
+			},
+			"ability": "int",
+			"type": "spellcasting"
+		}
+	]
+}
+]

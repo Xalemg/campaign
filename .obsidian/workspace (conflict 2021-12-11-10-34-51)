@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "d018907ec4e58bc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "18cc1d5d2a74c707",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "DnD/Mundos/Aretries/Panteón/Panteón.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38b522cb5c2d167a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "09b348c4f3e57bd4",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "25c41562d060800a",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "2a1b1df4ca5f4df2",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "38186b29c1ef39f0",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "f1e6ebdf4cd286eb",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "DnD/Mundos/Aretries/Panteón/Panteón.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "a5574e26cda21ec4",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "DnD/Mundos/Aretries/Panteón/Panteón.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "0c73652609e44c96",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "DnD/Mundos/Aretries/Panteón/Panteón.md"
+          }
+        }
+      },
+      {
+        "id": "78e81d94c17db595",
+        "type": "leaf",
+        "state": {
+          "type": "DICE_ROLLER_VIEW",
+          "state": {}
+        }
+      },
+      {
+        "id": "79d9483270bd490b",
+        "type": "leaf",
+        "state": {
+          "type": "initiative-tracker-view",
+          "state": {}
+        }
+      },
+      {
+        "id": "148a1e274e31c674",
+        "type": "leaf",
+        "state": {
+          "type": "FANTASY_CALENDAR",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 5
+  },
+  "active": "18cc1d5d2a74c707",
+  "lastOpenFiles": [
+    "DnD/Mundos/Aretries/Panteón/Panteón.md",
+    "DnD/DM Screen/DM Screen.md",
+    "DnD/Campañas/Sesiones/Sesión 19 Islas Shamal ( 2021-12-11).md",
+    "DnD/Campañas/Sesiones/Sesiones.md",
+    "DnD/Campañas/Sesiones/Sesión 1 Star Wars Al filo del Imperio/Sesión 1 Star Wars Al filo del Imperio.md",
+    "DnD/Mundos/Aretries/Islas Shamal/Lugares/Punto de interes/Palacio de las flores.md",
+    "DnD/Campañas/Aventuras de la Chumipower/ChumiPower/Eileen/Eileen.md",
+    "DnD/Campañas/Aventuras de la Chumipower/ChumiPower/Aryn/Aryn.md",
+    "DnD/Campañas/Aventuras de la Chumipower/ChumiPower/Elentari/Elentari.md",
+    "DnD/Campañas/Aventuras de la Chumipower/ChumiPower/ChumiPower.md"
+  ]
+}

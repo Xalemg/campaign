@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "192297b4ba9d20fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d5728325bc8ce54",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2. Campañas/Sesiones/Sesión 20 Chumipower( 2022-01-16).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "13d809b9e1121d6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "93f73d62317ecebd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a88ef68abd76fd6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4aec3d4541d003ac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b22b9249b075f124",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2d69d881bd872da1",
+    "type": "split",
+    "children": [
+      {
+        "id": "8bff0b0f760b8291",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "133e8a82403a4868",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. Campañas/Sesiones/Sesión 20 Chumipower( 2022-01-16).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bd430621d896692c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. Campañas/Sesiones/Sesión 20 Chumipower( 2022-01-16).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c24907cc803070f1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b4f4573e77e8a60d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. Campañas/Sesiones/Sesión 20 Chumipower( 2022-01-16).md"
+              }
+            }
+          },
+          {
+            "id": "e23dc49f9925ccdb",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
+          },
+          {
+            "id": "0a1687c3f9100f3b",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "ba618252f8c137ec",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "0d5728325bc8ce54",
+  "lastOpenFiles": [
+    "2. Campañas/Sesiones/Sesión 20 Chumipower( 2022-01-16).md",
+    "2. Campañas/Aventuras de la Chumipower/Aventuras de la Chumipower.md",
+    "2. Campañas/Sesiones/Sesiones.md",
+    "2. Campañas/Golpe de los dragones/Golpe de los dragones.md",
+    "1. Alamanac/11. Lugares/11. Lugares.md",
+    "1. Alamanac/11. Lugares/Ciudades/Kalithir (Ciudad de escaleras)-xalemg.md",
+    "1. Alamanac/11. Lugares/Ciudades/Ciudades.md",
+    "2. Campañas/Sesiones/Sesión 20 Islas Shamal ( 2022-01-09).md",
+    "1. Alamanac/6. Aretries/Islas Shamal/Mapa de las Islas Shamal.md",
+    "1. Alamanac/11. Lugares/Mar/Mar.md"
+  ]
+}

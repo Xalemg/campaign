@@ -1,0 +1,86 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "1. Alamanac/11. Lugares/Mazmorra",
+      "tag": "#Mazmorra",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Alamanac/11. Lugares/Ciudad",
+      "tag": "#ciudad",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Alamanac/11. Lugares/Mar",
+      "tag": "#Mar",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Alamanac/11. Lugares/Zona",
+      "tag": "#Zona",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Alamanac/11. Lugares/Region",
+      "tag": "#Región",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Alamanac/11. Lugares/Subcontinente",
+      "tag": "#Subcontinente",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Alamanac/11. Lugares/Punto de interes",
+      "tag": "#Punto_de_interes",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Alamanac/11. Lugares/Pueblo",
+      "tag": "#Pueblo",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Alamanac/12. Panteón",
+      "tag": "#Deidad",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Alamanac/13. Items",
+      "tag": "#Item",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Alamanac/14. Facciones",
+      "tag": "#faccion",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Alamanac/15. NPCs",
+      "tag": "#NPC",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Alamanac/17. Materias exoticas",
+      "tag": "#Materia",
+      "pattern": ""
+    },
+    {
+      "folder": "1. Alamanac/18. Eventos",
+      "tag": "#evento",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": false,
+  "excluded_folder": [
+    {
+      "folder": "Plantillas"
+    },
+    {
+      "folder": "Plantillas/Sencillas"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "modifierForNewNote": "Ctrl",
+  "hideNoteInExplorer": true,
+  "hideCollapseIndicator": true,
+  "longPressFocus": false,
+  "folderIcon": true,
+  "folderNotePref": null,
+  "deleteOutsideNoteWithFolder": null,
+  "indexName": null,
+  "autoRename": null,
+  "folderNoteTemplate": null,
+  "mobileClickToOpen": true,
+  "longPressDelay": 800,
+  "folderOverview": {
+    "h1AsTitleSource": true,
+    "briefMax": 128,
+    "titleField": "title",
+    "descField": "description"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "promptDelete": false,
+  "fileSortOrder": "alphabetical",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true,
+  "foldIndent": true,
+  "foldHeading": true,
+  "readableLineLength": false,
+  "showFrontmatter": false,
+  "showLineNumber": true,
+  "newFileLocation": "current",
+  "legacyEditor": false,
+  "livePreview": true,
+  "strictLineBreaks": false,
+  "spellcheckLanguages": [
+    "es",
+    "en-US"
+  ],
+  "spellcheck": true
+}

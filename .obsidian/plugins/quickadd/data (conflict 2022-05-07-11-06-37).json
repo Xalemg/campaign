@@ -1,0 +1,406 @@
+{
+  "choices": [
+    {
+      "id": "6c7759cd-6ecd-4edd-a82a-c9464f8ae577",
+      "name": "+",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "1e78921e-037c-41ea-8c6f-a37d7a90f9c7",
+          "name": "+ Lugar",
+          "type": "Macro",
+          "command": true,
+          "macroId": "d94660a0-4f58-4293-9616-71cf1d9bf8fb"
+        },
+        {
+          "id": "d3a3390e-5328-46c8-9724-0b6d267843c9",
+          "name": "+ Sesión",
+          "type": "Macro",
+          "command": true,
+          "macroId": "dcb17388-3611-4f27-ba5d-b60823fd7533"
+        },
+        {
+          "id": "311c255a-2d13-4eb8-a973-fdc6eef2df99",
+          "name": "Add God",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Adjuntos/Adjuntos.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "1. Alamanac/12. Panteón"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source"
+        },
+        {
+          "id": "236bd6bd-cd0a-4377-bdcf-7bdbb36578a9",
+          "name": "Add NPC",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Adjuntos/Adjuntos.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "1. Alamanac/15. NPCs"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source"
+        },
+        {
+          "id": "8e632096-a292-4211-8b18-8242cecc9059",
+          "name": "Add Facción",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Adjuntos/Adjuntos.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "3d33adb8-4941-4940-a55f-d1376143230e",
+          "name": "Add  Item",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Adjuntos/Adjuntos.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "1. Alamanac/13. Items"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "2daef9de-bafa-4a33-a329-21d612b41b4e",
+      "name": "Add Material Exotico",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Adjuntos/Adjuntos.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [
+    {
+      "name": "+ Punto de Interes",
+      "id": "6d7ae1e8-c576-45f8-b04b-13b269ef194d",
+      "commands": [
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "49012372-29a7-4b7a-9a78-adb97e3fd654",
+          "choice": {
+            "id": "07369738-c3f3-4d9d-a580-088e9ac2573b",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Plantillas/Localización.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "1. Alamanac/11. Lugares/Punto de interes"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "+ Ciudad",
+      "id": "e8969ff5-a527-4a61-bdb4-77c210236761",
+      "commands": [
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "a6d7e44c-5d0c-46de-9dc6-85d6c3aeb51a",
+          "choice": {
+            "id": "68fd78cc-67f2-47f8-99e8-4f1f3443783a",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Plantillas/Localización.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "1. Alamanac/11. Lugares/Ciudad"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "+ Region",
+      "id": "e55899ad-1c2c-4a06-bf67-ddabef5dc2da",
+      "commands": [
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "7b687df3-583b-4a7d-89fb-e3632a6fdae1",
+          "choice": {
+            "id": "d4cb9314-d37b-4960-847a-8f49df256c37",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Plantillas/Localización.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "1. Alamanac/11. Lugares/Region"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "+ Zona",
+      "id": "4ed3cabe-7220-40fe-933e-c50cee506491",
+      "commands": [
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "3ca475e2-3f43-4d14-8ec5-ef4e7d7c14f0",
+          "choice": {
+            "id": "4a2a5558-4af1-4bf7-a0a9-a6cf4d3a7e2a",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Plantillas/Localización.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "1. Alamanac/11. Lugares/Zona"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "+ Lugar",
+      "id": "d94660a0-4f58-4293-9616-71cf1d9bf8fb",
+      "commands": [
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "620f0854-71f8-46c7-a508-77f1cd14d02f",
+          "choice": {
+            "id": "e806f379-370b-4169-a9c1-7d3e6fb3acae",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Plantillas/Localización.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "1. Alamanac/11. Lugares"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "+ Sesión",
+      "id": "dcb17388-3611-4f27-ba5d-b60823fd7533",
+      "commands": [
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "931018fe-e560-47ed-aba4-b7042ecb87f4",
+          "choice": {
+            "id": "dccf806c-1c63-423c-bced-ed55914b5443",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Plantillas/Sesión.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "2. Campañas/Sesiones"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line"
+}

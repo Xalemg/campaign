@@ -1,0 +1,61 @@
+{
+  "presetFields": [
+    {
+      "name": "ubicacion",
+      "options": {},
+      "id": "1",
+      "valuesListNotePath": "",
+      "type": "File"
+    },
+    {
+      "name": "fecha",
+      "options": {},
+      "id": "2",
+      "valuesListNotePath": "",
+      "type": "Input"
+    },
+    {
+      "name": "controversia",
+      "options": {},
+      "id": "3",
+      "valuesListNotePath": "Listas Metadata menu/Lista controversia.md",
+      "type": "Select"
+    },
+    {
+      "name": "facciones",
+      "options": {},
+      "id": "4",
+      "valuesListNotePath": "",
+      "type": "Input"
+    },
+    {
+      "name": "descripcion",
+      "options": {},
+      "id": "5",
+      "valuesListNotePath": "",
+      "type": "Input"
+    },
+    {
+      "name": "relevancia",
+      "options": {},
+      "id": "6",
+      "valuesListNotePath": "Listas Metadata menu/Lista relevancia.md",
+      "type": "Select"
+    },
+    {
+      "name": "conocido",
+      "options": {},
+      "id": "7",
+      "valuesListNotePath": "Listas Metadata menu/Lista conocido.md",
+      "type": "Select"
+    }
+  ],
+  "fileClassQueries": [],
+  "displayFieldsInContextMenu": true,
+  "globallyIgnoredFields": [],
+  "classFilesPath": "",
+  "isAutosuggestEnabled": true,
+  "fileClassAlias": "fileClass",
+  "settingsVersion": 2,
+  "firstDayOfWeek": 1
+}

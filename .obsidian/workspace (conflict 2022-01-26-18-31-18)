@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "192297b4ba9d20fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d5728325bc8ce54",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1. Alamanac/6. Aretries/Islas Shamal/Mapa de las Islas Shamal.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e690f9260f8e9277",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0820c0a91d4faa64",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "e0a1747a942bb9c3",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "4fe687bb544741a9",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "31ddc1ce765f86c8",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "right": {
+    "id": "8a1519ba593e6405",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "8fa1f30e9df9d0c3",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "1. Alamanac/6. Aretries/Islas Shamal/Mapa de las Islas Shamal.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "0085ba98d392c375",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "1. Alamanac/6. Aretries/Islas Shamal/Mapa de las Islas Shamal.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "14eddede352ae06d",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "1. Alamanac/6. Aretries/Islas Shamal/Mapa de las Islas Shamal.md"
+          }
+        }
+      },
+      {
+        "id": "dc8f368598e0b9c9",
+        "type": "leaf",
+        "state": {
+          "type": "DICE_ROLLER_VIEW",
+          "state": {}
+        }
+      },
+      {
+        "id": "acedd42d851773fe",
+        "type": "leaf",
+        "state": {
+          "type": "initiative-tracker-view",
+          "state": {}
+        }
+      },
+      {
+        "id": "ed96d18be69f5d79",
+        "type": "leaf",
+        "state": {
+          "type": "FANTASY_CALENDAR",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 5
+  },
+  "active": "0d5728325bc8ce54",
+  "lastOpenFiles": [
+    "1. Alamanac/6. Aretries/Islas Shamal/Mapa de las Islas Shamal.md",
+    "1. Alamanac/11. Lugares/Ciudades/Kalithir (Ciudad de escaleras).md",
+    "1. Alamanac/11. Lugares/11. Lugares.md",
+    "2. Campañas/Sesiones/Sesión 20 Chumipower( 2022-01-16) 1.md",
+    "1. Alamanac/11. Lugares/Punto de interes/Palacio de las flores.md",
+    "2. Campañas/Sesiones/Sesión 20 Chumipower( 2022-01-16).md",
+    "Adjuntos/Sesion 20.mp3",
+    "Adjuntos/Sesion 18.mp3",
+    "Adjuntos/Sesion 20.webm",
+    "Adjuntos/Sesion 17.mp3"
+  ]
+}

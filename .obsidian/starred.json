@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Mapa de las Islas Shamal",
+      "path": "Mapa de las Islas Shamal.md"
+    },
+    {
+      "type": "file",
+      "title": "1. Lugares",
+      "path": "1. Alamanac/11. Lugares/11. Lugares.md"
+    },
+    {
+      "type": "file",
+      "title": "12. Panteón",
+      "path": "1. Alamanac/12. Panteón/12. Panteón.md"
+    },
+    {
+      "type": "file",
+      "title": "13. Items",
+      "path": "1. Alamanac/13. Items/13. Items.md"
+    },
+    {
+      "type": "file",
+      "title": "14. Facciones",
+      "path": "1. Alamanac/14. Facciones/14. Facciones.md"
+    },
+    {
+      "type": "file",
+      "title": "15. NPCs",
+      "path": "1. Alamanac/15. NPCs/15. NPCs.md"
+    },
+    {
+      "type": "file",
+      "title": "16. Aretries",
+      "path": "1. Alamanac/16. Aretries/16. Aretries.md"
+    },
+    {
+      "type": "file",
+      "title": "17. Materias exoticas",
+      "path": "1. Alamanac/17. Materias exoticas/17. Materias exoticas.md"
+    },
+    {
+      "type": "file",
+      "title": "Historia de las Islas",
+      "path": "1. Alamanac/16. Aretries/Islas Shamal/Historia de las Islas/Historia de las Islas.md"
+    },
+    {
+      "type": "file",
+      "title": "Sesiones",
+      "path": "2. Campañas/Sesiones/Sesiones.md"
+    },
+    {
+      "type": "file",
+      "title": "Pantalla del Master",
+      "path": "0. DnD/Pantalla del Master/Pantalla del Master.md"
+    },
+    {
+      "type": "file",
+      "title": "ChumiPower",
+      "path": "2. Campañas/Aventuras de la Chumipower/ChumiPower/ChumiPower.md"
+    }
+  ]
+}

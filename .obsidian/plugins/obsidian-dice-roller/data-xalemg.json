@@ -1,0 +1,825 @@
+{
+  "returnAllTags": false,
+  "rollLinksForTags": false,
+  "copyContentButton": true,
+  "customFormulas": [],
+  "displayFormulaForMod": true,
+  "displayResultsInline": false,
+  "displayLookupRoll": false,
+  "formulas": {},
+  "persistResults": true,
+  "results": {
+    "Plantillas/NPC/NPC.md": {
+      "35": {
+        "0": {
+          "type": "table",
+          "result": "Estoy lleno de aforismos ingeniosos y tengo un proverbio para cada ocasión."
+        }
+      },
+      "37": {
+        "0": {
+          "type": "table",
+          "result": "Me enfrento a los problemas de frente. Una solución sencilla y directa es el mejor camino hacia el éxito."
+        }
+      },
+      "39": {
+        "0": {
+          "type": "table",
+          "result": "Tengo debilidad por los vicios de la ciudad, especialmente por la bebida fuerte."
+        }
+      },
+      "41": {
+        "0": {
+          "type": "table",
+          "result": "No esperes que salve a los que no pueden salvarse a sí mismos. Es la forma que tiene la naturaleza de que los fuertes prosperen y los débiles perezcan."
+        }
+      },
+      "50": {
+        "0": {
+          "type": "table",
+          "result": "Un portal radiante te escupió. Las últimas palabras que recuerdas fueron \"Penitencia\". Los Aasimar saben quién eres, pero no lo revelan ni siquiera bajo tortura."
+        }
+      }
+    },
+    "Tablas/Name Dice Tables.md": {
+      "4": {
+        "0": {
+          "type": "table",
+          "result": "`dice: [[Name Dice Tables#^names]]`&#8203`dice: [[Name Dice Tables#^masc]]`"
+        }
+      },
+      "7": {
+        "0": {
+          "type": "table",
+          "result": "`dice: [[Names Kazoan-Kesta#^main]]`"
+        },
+        "1": {
+          "type": "table",
+          "result": "ea"
+        }
+      },
+      "10": {
+        "0": {
+          "type": "table",
+          "result": "`dice: [[Names Krace-Laethis#^main]]`"
+        },
+        "1": {
+          "type": "table",
+          "result": "an"
+        }
+      },
+      "13": {
+        "0": {
+          "type": "table",
+          "result": "`dice: [[Names Gromek-Haider#^main]]`"
+        },
+        "1": {
+          "type": "table",
+          "result": "chester"
+        }
+      },
+      "18": {
+        "0": {
+          "type": "table",
+          "result": "`dice: [[Names Natania-Nerliza#^main]]`"
+        },
+        "1": {
+          "type": "table",
+          "result": "ora"
+        },
+        "2": {
+          "type": "table",
+          "result": "`dice: [[Names Ganefo-Geren#^main]]`"
+        },
+        "3": {
+          "type": "table",
+          "result": "as"
+        }
+      },
+      "24": {
+        "0": {
+          "type": "table",
+          "result": "`dice: [[Names Jibrial-Joseran#^main]]`"
+        },
+        "1": {
+          "type": "table",
+          "result": "ian"
+        }
+      },
+      "26": {
+        "0": {
+          "type": "table",
+          "result": "`dice: [[Name Dice Tables#^names]]`&#8203`dice: [[Name Dice Tables#^masc]]`"
+        }
+      },
+      "130": {
+        "0": {
+          "type": "table",
+          "result": "Aelus"
+        },
+        "1": {
+          "type": "table",
+          "result": "Akmir"
+        },
+        "2": {
+          "type": "table",
+          "result": "Alemandra"
+        },
+        "3": {
+          "type": "table",
+          "result": "Amorian"
+        },
+        "4": {
+          "type": "table",
+          "result": "Antek"
+        },
+        "5": {
+          "type": "table",
+          "result": "Arkyn"
+        },
+        "6": {
+          "type": "table",
+          "result": "Avaldamon"
+        },
+        "7": {
+          "type": "table",
+          "result": "Barin"
+        },
+        "8": {
+          "type": "table",
+          "result": "Berach"
+        },
+        "9": {
+          "type": "table",
+          "result": "Blanton"
+        },
+        "10": {
+          "type": "table",
+          "result": "Branda"
+        },
+        "11": {
+          "type": "table",
+          "result": "Calesius"
+        },
+        "12": {
+          "type": "table",
+          "result": "Caryn"
+        },
+        "13": {
+          "type": "table",
+          "result": "Chaitram"
+        },
+        "14": {
+          "type": "table",
+          "result": "Chatara"
+        },
+        "15": {
+          "type": "table",
+          "result": "Coran"
+        },
+        "16": {
+          "type": "table",
+          "result": "Dace"
+        },
+        "17": {
+          "type": "table",
+          "result": "Dalya"
+        },
+        "18": {
+          "type": "table",
+          "result": "Dasan"
+        },
+        "19": {
+          "type": "table",
+          "result": "Datha"
+        },
+        "20": {
+          "type": "table",
+          "result": "Demirhan"
+        },
+        "21": {
+          "type": "table",
+          "result": "Dordrien"
+        },
+        "22": {
+          "type": "table",
+          "result": "Drinar"
+        },
+        "23": {
+          "type": "table",
+          "result": "Edohm"
+        },
+        "24": {
+          "type": "table",
+          "result": "Elana"
+        },
+        "25": {
+          "type": "table",
+          "result": "Eloann"
+        },
+        "26": {
+          "type": "table",
+          "result": "Evalla"
+        },
+        "27": {
+          "type": "table",
+          "result": "Farnak"
+        },
+        "28": {
+          "type": "table",
+          "result": "Faxon"
+        },
+        "29": {
+          "type": "table",
+          "result": "Firisara"
+        },
+        "30": {
+          "type": "table",
+          "result": "Galdor"
+        },
+        "31": {
+          "type": "table",
+          "result": "Garrick"
+        },
+        "32": {
+          "type": "table",
+          "result": "Gerrimar"
+        },
+        "33": {
+          "type": "table",
+          "result": "Goldenbeard"
+        },
+        "34": {
+          "type": "table",
+          "result": "Gowen"
+        },
+        "35": {
+          "type": "table",
+          "result": "Hadiya"
+        },
+        "36": {
+          "type": "table",
+          "result": "Harith"
+        },
+        "37": {
+          "type": "table",
+          "result": "Hathrell"
+        },
+        "38": {
+          "type": "table",
+          "result": "Hesturiel"
+        },
+        "39": {
+          "type": "table",
+          "result": "Hyeric"
+        },
+        "40": {
+          "type": "table",
+          "result": "Ioakim"
+        },
+        "41": {
+          "type": "table",
+          "result": "Jacinda"
+        },
+        "42": {
+          "type": "table",
+          "result": "Jarlath"
+        },
+        "43": {
+          "type": "table",
+          "result": "Jedrek"
+        },
+        "44": {
+          "type": "table",
+          "result": "Jolan"
+        },
+        "45": {
+          "type": "table",
+          "result": "Jumar"
+        },
+        "46": {
+          "type": "table",
+          "result": "Kauvra"
+        },
+        "47": {
+          "type": "table",
+          "result": "Keffiya"
+        },
+        "48": {
+          "type": "table",
+          "result": "Khina"
+        },
+        "49": {
+          "type": "table",
+          "result": "Kostas"
+        },
+        "50": {
+          "type": "table",
+          "result": "Laertes"
+        },
+        "51": {
+          "type": "table",
+          "result": "Lasha"
+        },
+        "52": {
+          "type": "table",
+          "result": "Lhyl"
+        },
+        "53": {
+          "type": "table",
+          "result": "Lotan"
+        },
+        "54": {
+          "type": "table",
+          "result": "Madulara"
+        },
+        "55": {
+          "type": "table",
+          "result": "Malgreant"
+        },
+        "56": {
+          "type": "table",
+          "result": "Marghaz"
+        },
+        "57": {
+          "type": "table",
+          "result": "Melcer"
+        },
+        "58": {
+          "type": "table",
+          "result": "Methild"
+        },
+        "59": {
+          "type": "table",
+          "result": "Mitya"
+        },
+        "60": {
+          "type": "table",
+          "result": "Morthon"
+        },
+        "61": {
+          "type": "table",
+          "result": "Myfa"
+        },
+        "62": {
+          "type": "table",
+          "result": "Nalvyna"
+        },
+        "63": {
+          "type": "table",
+          "result": "Neimic"
+        },
+        "64": {
+          "type": "table",
+          "result": "Neron"
+        },
+        "65": {
+          "type": "table",
+          "result": "Norvella"
+        },
+        "66": {
+          "type": "table",
+          "result": "Nycia"
+        },
+        "67": {
+          "type": "table",
+          "result": "Olphaunt"
+        },
+        "68": {
+          "type": "table",
+          "result": "Oralee"
+        },
+        "69": {
+          "type": "table",
+          "result": "Paddin"
+        },
+        "70": {
+          "type": "table",
+          "result": "Parwen"
+        },
+        "71": {
+          "type": "table",
+          "result": "Phandalyn"
+        },
+        "72": {
+          "type": "table",
+          "result": "Poliris"
+        },
+        "73": {
+          "type": "table",
+          "result": "Qusagna"
+        },
+        "74": {
+          "type": "table",
+          "result": "Ranazar"
+        },
+        "75": {
+          "type": "table",
+          "result": "Rency"
+        },
+        "76": {
+          "type": "table",
+          "result": "Rhovan"
+        },
+        "77": {
+          "type": "table",
+          "result": "Routly"
+        },
+        "78": {
+          "type": "table",
+          "result": "Rove"
+        },
+        "79": {
+          "type": "table",
+          "result": "Sajidah"
+        },
+        "80": {
+          "type": "table",
+          "result": "Secunda"
+        },
+        "81": {
+          "type": "table",
+          "result": "Serian"
+        },
+        "82": {
+          "type": "table",
+          "result": "Sheikh"
+        },
+        "83": {
+          "type": "table",
+          "result": "Skeetul"
+        },
+        "84": {
+          "type": "table",
+          "result": "Solea"
+        },
+        "85": {
+          "type": "table",
+          "result": "Taerl"
+        },
+        "86": {
+          "type": "table",
+          "result": "Tarn"
+        },
+        "87": {
+          "type": "table",
+          "result": "Terane"
+        },
+        "88": {
+          "type": "table",
+          "result": "Terrog"
+        },
+        "89": {
+          "type": "table",
+          "result": "Thoran"
+        },
+        "90": {
+          "type": "table",
+          "result": "Tolvise"
+        },
+        "91": {
+          "type": "table",
+          "result": "Tufala"
+        },
+        "92": {
+          "type": "table",
+          "result": "Unanthee"
+        },
+        "93": {
+          "type": "table",
+          "result": "Valsparn"
+        },
+        "94": {
+          "type": "table",
+          "result": "Veovis"
+        },
+        "95": {
+          "type": "table",
+          "result": "Viktal"
+        },
+        "96": {
+          "type": "table",
+          "result": "Vunoon"
+        },
+        "97": {
+          "type": "table",
+          "result": "Wallac"
+        },
+        "98": {
+          "type": "table",
+          "result": "Xuri"
+        },
+        "99": {
+          "type": "table",
+          "result": "Yojana"
+        },
+        "100": {
+          "type": "table",
+          "result": "Zakhara"
+        },
+        "101": {
+          "type": "table",
+          "result": "Zenaida"
+        },
+        "102": {
+          "type": "table",
+          "result": "Zurishalen"
+        }
+      }
+    },
+    "Tablas/NPC Dice Tables.md": {
+      "97": {
+        "0": {
+          "type": "table",
+          "result": "Rogue"
+        },
+        "1": {
+          "type": "table",
+          "result": "Paladin"
+        },
+        "2": {
+          "type": "table",
+          "result": "Wizard"
+        }
+      },
+      "143": {
+        "0": {
+          "type": "table",
+          "result": "`dice: #dnd/npc|link` helps, aids, or works for them"
+        },
+        "1": {
+          "type": "table",
+          "result": "They're from `dice: #dnd/pc|link`'s past `dice: [[NPC Dice Tables#^connections-opinion]]`"
+        },
+        "2": {
+          "type": "table",
+          "result": "`dice: [[NPC Dice Tables#^connection-npc-or-faction]]` is obstructing their goals (knowingly or unknowingly)"
+        },
+        "3": {
+          "type": "table",
+          "result": "Helps, Aids, or works for `dice: #dnd/npc|link`"
+        }
+      }
+    },
+    "Tablas/_Implementations.md": {
+      "12": {
+        "0": {
+          "type": "table",
+          "result": "`dice: [[Name Dice Tables#^names]]`&#8203`dice: [[Name Dice Tables#^femme]]`"
+        },
+        "1": {
+          "type": "table",
+          "result": "They/Them"
+        }
+      },
+      "14": {
+        "0": {
+          "type": "table",
+          "result": "Lawful"
+        },
+        "1": {
+          "type": "table",
+          "result": "Neutral"
+        }
+      },
+      "16": {
+        "0": {
+          "type": "table",
+          "result": "`dice: [[Race Dice Tables#^uncommon]]`"
+        },
+        "1": {
+          "type": "table",
+          "result": "Constable"
+        }
+      },
+      "18": {
+        "0": {
+          "type": "table",
+          "result": "`dice: [[NPC Dice Tables#^class-types]]` / `dice: [[NPC Dice Tables#^class-types]]`"
+        }
+      },
+      "20": {
+        "0": {
+          "type": "table",
+          "result": "Loving"
+        },
+        "1": {
+          "type": "table",
+          "result": "Neutral"
+        }
+      },
+      "22": {
+        "0": {
+          "type": "table",
+          "result": "To Locate Someone"
+        }
+      },
+      "25": {
+        "0": {
+          "type": "table",
+          "result": "`dice: [[Tarot Dice Tables#^main-upright]]`"
+        },
+        "1": {
+          "type": "table",
+          "result": "`dice: [[Tarot_Fortunes#^four-of-coins]]`"
+        },
+        "2": {
+          "type": "table",
+          "result": "`dice: [[Tarot_Keywords#^The-Hermit]]`"
+        },
+        "3": {
+          "type": "table",
+          "result": "`dice: [[Tarot_Keywords#^king-of-coins]]`"
+        },
+        "4": {
+          "type": "table",
+          "result": "`dice: [[Tarot_Keywords#^Hierophant]]`"
+        }
+      },
+      "33": {
+        "0": {
+          "type": "table",
+          "result": "`dice: [[Names Dasara-Delora#^main]]`"
+        },
+        "1": {
+          "type": "table",
+          "result": "osa"
+        }
+      }
+    },
+    "0. DnD/Pantalla del Master.md": {
+      "2189": {
+        "0": {
+          "type": "table",
+          "result": "57-58 | Kipper"
+        }
+      },
+      "2245": {
+        "0": {
+          "type": "table",
+          "result": "01-02 | Alston"
+        }
+      }
+    },
+    "0. DnD/Pantalla del Master/Gnomos.md": {
+      "1": {
+        "0": {
+          "type": "table",
+          "result": "39-40 | Frouse"
+        }
+      },
+      "57": {
+        "0": {
+          "type": "table",
+          "result": "11-12 | Boddynock"
+        }
+      }
+    },
+    "0. DnD/Pantalla del Master/Nombre.md": {
+      "1": {
+        "0": {
+          "type": "table"
+        }
+      },
+      "57": {
+        "0": {
+          "type": "table"
+        }
+      }
+    },
+    "0. DnD/Pantalla del Master/Generadores/Gnomos.md": {
+      "1": {
+        "0": {
+          "type": "table",
+          "result": "59-60 | Namfoodle"
+        }
+      },
+      "2": {
+        "0": {
+          "type": "table",
+          "result": "29-30 | Eldon"
+        }
+      },
+      "57": {
+        "0": {
+          "type": "table",
+          "result": "29-30 | Eldon"
+        }
+      },
+      "58": {
+        "0": {
+          "type": "table",
+          "result": "11-12 | Caramip"
+        }
+      }
+    },
+    "0. DnD/Pantalla del Master/Generadores/Enanos.md": {
+      "1": {
+        "0": {
+          "type": "table",
+          "result": "07-08 | Bigtoe"
+        }
+      },
+      "57": {
+        "0": {
+          "type": "table",
+          "result": "17-18 | Dariff"
+        }
+      }
+    },
+    "0. DnD/Pantalla del Master/Generadores/Elfos.md": {
+      "1": {
+        "0": {
+          "type": "table",
+          "result": "45-46 | Goblinbane"
+        }
+      },
+      "58": {
+        "0": {
+          "type": "table",
+          "result": "39-40 | Helgret"
+        }
+      }
+    },
+    "0. DnD/Pantalla del Master/Generadores/Nombre/Gnomos.md": {
+      "1": {
+        "0": {
+          "type": "table",
+          "result": "37-38 | Fonkin"
+        }
+      },
+      "57": {
+        "0": {
+          "type": "table",
+          "result": "95-96 | Waywocket"
+        }
+      }
+    },
+    "0. DnD/Pantalla del Master/Generadores/Nombre/Humanos.md": {
+      "1": {
+        "0": {
+          "type": "table",
+          "result": "55-56 | Jayme"
+        }
+      },
+      "58": {
+        "0": {
+          "type": "table",
+          "result": "93-94 | Virra"
+        }
+      }
+    },
+    "1. Alamanac/15. NPCs/test.md": {
+      "23": {
+        "0": {
+          "type": "table",
+          "result": "Sinceridad. No es bueno pretender ser algo que no soy. (Neutral)"
+        }
+      },
+      "25": {
+        "0": {
+          "type": "table",
+          "result": "Estoy totalmente sereno, incluso ante el desastre."
+        }
+      },
+      "27": {
+        "0": {
+          "type": "table",
+          "result": "Me gusta guardar secretos y no los comparto con nadie."
+        }
+      },
+      "36": {
+        "0": {
+          "type": "table",
+          "result": "Creciste viendo visiones de batalla en tus sueños. Horribles y crueles visiones de una guerra lejana. Compartes un alma con un Warforged de otro continente... y os buscáis mutuamente."
+        }
+      }
+    },
+    "1. Alamanac/15. NPCs/Ianver Rirrun.md": {
+      "39": {
+        "0": {
+          "type": "table",
+          "result": "Nacido huérfano, fuiste adoptado por una familia rica a una edad temprana para ser criado como ayuda. (Poco después de cumplir los 18 años, toda la finca se quemó y tú eres el único superviviente conocido. Eres sospechoso y buscado por el reino local para ser interrogado y por los crímenes contra la familia. ¿Podrás limpiar tu nombre antes de que el reino te detenga, serás el culpable del incendio o serás inocente y acusado injustamente? ¿Serás capaz de encontrar al villano a tiempo?"
+        }
+      }
+    },
+    "1. Alamanac/15. NPCs/Forgoli Maldice Botellas.md": {
+      "37": {
+        "0": {
+          "type": "table",
+          "result": "No recuerdas en absoluto a tu padre, pero tu madre dice que era el bardo más guapo y con más talento de toda la tierra. Cada día te preguntas en qué aventuras debe estar metido, ya que en tu pueblo no hay más que gallinas que desplumar y cerdos que colgar. Con nada más que una horca y una azada en la mano, te pones en marcha, decidido a encontrar a tu padre, o al menos a traer una historia para la gente de casa."
+        }
+      }
+    }
+  },
+  "defaultRoll": 1,
+  "defaultFace": 100,
+  "renderer": true,
+  "renderAllDice": false,
+  "renderTime": 2000,
+  "diceColor": "#a30000",
+  "textColor": "#ffffff",
+  "showLeafOnStartup": true,
+  "showDice": false,
+  "round": "None"
+}

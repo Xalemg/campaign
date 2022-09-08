@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "730dc61699301a6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ff1eecf5b1a5e78",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2. Campañas/Sesiones/Sesión 25 Chumipower( 2022-03-31).md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "9a7af00327b9ba9b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2. Campañas/Aventuras de la Chumipower/ChumiPower/AinLaoo/Diario.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e83a0067b0ede81d",
+    "type": "split",
+    "children": [
+      {
+        "id": "cbc0759e864775d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0038bf8b67e3834",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "889705efc27f9250",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "sesion 25",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "0d814fedf0eaf7c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5633b3c64ce8246",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "ed9adb5f8f789037",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 315
+  },
+  "right": {
+    "id": "e1f9a392438c66b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "f69e9d4bc326690e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3de15a67613d7e57",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2. Campañas/Sesiones/Sesión 25 Chumipower( 2022-03-31).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "46ad7ba92c73d9e3",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "190b8e384e6d2d41",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "7ef03db5f954ba89",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. Campañas/Sesiones/Sesión 25 Chumipower( 2022-03-31).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ebbea00de19b7f60",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. Campañas/Sesiones/Sesión 25 Chumipower( 2022-03-31).md"
+              }
+            }
+          },
+          {
+            "id": "6f733fbf25d0ae5e",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "d07908acf86eb6af",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
+          },
+          {
+            "id": "1600f9ae0c27b17b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. DnD/Pantalla del Master/Pantalla del Master.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 375
+  },
+  "active": "9ff1eecf5b1a5e78",
+  "lastOpenFiles": [
+    "2. Campañas/Sesiones/Sesión 25 Chumipower( 2022-03-31).md",
+    "1. Alamanac/15. NPCs/Nambra Genbella.md",
+    "2. Campañas/Aventuras de la Chumipower/ChumiPower/Elentari/Elentari.md",
+    "2. Campañas/Aventuras de la Chumipower/ChumiPower/AinLaoo/Diario.md",
+    "2. Campañas/Aventuras de la Chumipower/ChumiPower/AinLaoo/AinLaoo.md",
+    "2. Campañas/Aventuras de la Chumipower/Aventuras de la Chumipower.md",
+    "2. Campañas/Sesiones/Sesiones.md",
+    "1. Alamanac/16. Aretries/Islas Shamal/Historia de las Islas/Historia de las Islas.md",
+    "1. Alamanac/11. Lugares/Islas Principales/Isla de Bas'loch/Isla de Bas'loch.md",
+    "1. Alamanac/15. NPCs/15. NPCs.md"
+  ]
+}

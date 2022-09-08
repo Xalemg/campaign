@@ -1,0 +1,15 @@
+{
+  "baseFontSize": 12,
+  "translucency": false,
+  "cssTheme": "ITS Theme",
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "custom-map",
+    "supercharged-links-gen",
+    "statblocks",
+    "sidebar icon",
+    "item callout"
+  ],
+  "textFontFamily": ""
+}

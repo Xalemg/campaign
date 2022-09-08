@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "d018907ec4e58bc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "48669f823db5a89e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "DnD/Mundos/Aretries/Facciones/Culto de Bane/Culto de Bane.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "339da3df2c610f88",
+    "type": "split",
+    "children": [
+      {
+        "id": "2362d196cb21abbc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57671d57e651c189",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "938e76a4ba821dff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ac86dfeee6de6fd7",
+    "type": "split",
+    "children": [
+      {
+        "id": "189bc2e0889ba060",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4d2dea1557b9921",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DnD/Mundos/Aretries/Facciones/Culto de Bane/Culto de Bane.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2fae1b5459b69709",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DnD/Mundos/Aretries/Facciones/Culto de Bane/Culto de Bane.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4fb7a5830ec784be",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "73ff1a0b7ad30ee1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DnD/Mundos/Aretries/Facciones/Culto de Bane/Culto de Bane.md"
+              }
+            }
+          },
+          {
+            "id": "6f8fc7a29cd2426a",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "22d9d8e64f5e88a6",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "4f7992339c2e20ab",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "48669f823db5a89e",
+  "lastOpenFiles": [
+    "DnD/Mundos/Aretries/Facciones/Culto de Bane/Culto de Bane.md",
+    "DnD/Mundos/Aretries/Facciones/Facciones.md",
+    "DnD/Campañas/Sesiones/Sesión 19 Islas Shamal ( 2021-12-03).md",
+    "DnD/Campañas/Sesiones/Sesiones.md",
+    "DnD/Campañas/Aventuras de la Chumipower/ChumiPower/AinLaoo/AinLaoo.md",
+    "DnD/Campañas/Sesión 1 Star Wars Al filo del Imperio/Sesión 1 Star Wars Al filo del Imperio.md",
+    "DnD/Campañas/Sesión 1 Star Wars Al filo del Imperio/Recording 20211209141616.webm",
+    "DnD/Campañas/Sesiones.md",
+    "DnD/Campañas/Aventuras de la Chumipower/ChumiPower/ChumiPower.md",
+    "DnD/Campañas/Aventuras de la Chumipower/Aventuras de la Chumipower.md"
+  ]
+}

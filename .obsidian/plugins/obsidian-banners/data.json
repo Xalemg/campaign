@@ -1,0 +1,21 @@
+{
+  "height": 400,
+  "style": "gradient",
+  "showInInternalEmbed": true,
+  "internalEmbedHeight": null,
+  "showInPreviewEmbed": true,
+  "previewEmbedHeight": null,
+  "frontmatterField": null,
+  "bannerDragModifier": "shift",
+  "iconHorizontalAlignment": "left",
+  "iconHorizontalTransform": null,
+  "iconVerticalAlignment": "center",
+  "iconVerticalTransform": null,
+  "useTwemoji": true,
+  "showPreviewInLocalModal": true,
+  "localSuggestionsLimit": 10,
+  "bannersFolder": null,
+  "allowMobileDrag": true,
+  "showInEmbed": false,
+  "embedHeight": null
+}

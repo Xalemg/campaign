@@ -1,0 +1,2133 @@
+[
+	{
+		"name": "Candado (Guarda de Cadenas)",
+		"source": "Bardomejorado",
+		"size": "M",
+		"type": "humanoid",
+		"ac": [
+			{
+				"ac": 18,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"hp": {
+			"formula": "15d8 + 75",
+			"average": 142
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 14,
+		"dex": 20,
+		"con": 20,
+		"int": 16,
+		"wis": 22,
+		"cha": 16,
+		"save": {
+			"wis": "+11",
+			"dex": "+10",
+			"cha": "+8"
+		},
+		"senses": [
+			"darkvision 120 ft."
+		],
+		"passive": 16,
+		"conditionImmune": [
+			"frightened",
+			"paralyzed",
+			"stunned"
+		],
+		"languages": [
+			"any three languages"
+		],
+		"cr": "15",
+		"trait": [
+			{
+				"name": "Tattoo of the Chain",
+				"entries": [
+					"If the guard drops to 0 hit points, roll on the Boons of Undeath table for the boon the guard receives. The guard dies if it receives a boon it already has. If it receives a new boon, it revives at the start of its next turn with half its hit points restored, and its creature type is now Undead.",
+					"To prevent this revival, the Tattoo of the Chain on the guard's body must be destroyed. Attacks against the tattoo are at disadvantage and it is consider an object with AC 18, and it is immune to poison and psychic damage. It has 30 hit points, but it regains all its hit points at the end of every combatant's turn."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The guard attacks twice."
+				]
+			},
+			{
+				"name": "Soul Chains",
+				"entries": [
+					"{@atk mw} {@hit 15} to hit, reach 25 ft., one target. {@h}21 ({@damage 6d4 + 6}) bludgeoning damage,25 ({@damage 4d10 + 5}) radiant damage, and if the target is a creature, it must suceed on a {@dc 19} Wisdom saving throw or it is {@condition paralyzed} until the start of the guard's next turn. If this damage reduces the creature to 0 hit points, the creature dies, and its soul is trapped in the guard's body, manifesting as a shadowy link on the guards chain on the guard. The soul is freed if the guard dies."
+				]
+			},
+			{
+				"name": "Radiant Bolt",
+				"entries": [
+					"{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@h}19 ({@damage 3d8 + 6}) radiant damage, and the target can't regain hit points until the start of the guard's next turn."
+				]
+			},
+			{
+				"name": "Path to the Grave",
+				"entries": [
+					"As an action, you choose one creature you can see within 30 feet of you, cursing it until the end of your next turn. The next time you or an ally of yours hits the cursed creature with an attack, the creature has vulnerability to all of that attack's damage, and then the curse ends."
+				]
+			}
+		],
+		"bonus": [
+			{
+				"name": "Soul Chain",
+				"entries": [
+					"The guard touches two of the links on its chains. The links vanishes as the trapped souls manifests as two shadowy creatures that appears in an unoccupied space the guard can see within 30 feet of it. The creatures has the size and silhouette of its original body, but it otherwise uses the stat block of a shadow.",
+					"The shadow obeys the guard's mental commands (no action required) and takes its turn immediately after the guard. If the creature is within 5 feet of the guard, it can turn back into a link as an action, reappearing on the guard's flesh and regaining all its hit points."
+				]
+			}
+		],
+		"variant": [
+			{
+				"name": "Boons of Undeath",
+				"entries": [
+					"When a guard of the Chain drops to 0 hit points, the guard might revive with a benefit from the Boons of Undeath table. You can give a guard one or more of these boons of your choice before the guard faces adventurers. If you do so, the guard is Undead, rather than Humanoid, and a guard can receive each boon only once.",
+					{
+						"type": "table",
+						"caption": "Boons of Undeath",
+						"colLabels": [
+							"d6",
+							"Boon"
+						],
+						"colStyles": [
+							"col-1 text-center",
+							"col-11"
+						],
+						"rows": [
+							[
+								"1",
+								{
+									"type": "entries",
+									"name": "Dread",
+									"entries": [
+										"Eerie whispers can now be heard around the guard. Any non-Undead creature that starts its turn within 30 feet of the guard must succeed on a {@dc 20} Wisdom saving throw or be {@condition frightened} of the guard until the start of the creature's next turn."
+									]
+								}
+							],
+							[
+								"2",
+								{
+									"type": "entries",
+									"name": "Ectoplasmic",
+									"entries": [
+										"An otherworldly slime drips off the guard and fades away moments later, leaving a greenish stain. When any creature starts its turn within 10 feet of the guard, the guard can reduce that creature's speed by 10 feet until the start of the creature's next turn, until which the creature is covered by ectoplasm. In addition, as an action, the guard can use the slime to make itself look and feel like any creature that is Medium or Small, while retaining its game statistics. This transformation lasts for 8 hours or until the guard drops to 0 hit points."
+									]
+								}
+							],
+							[
+								"3",
+								{
+									"type": "entries",
+									"name": "Vampiric",
+									"entries": [
+										"When the guard deals necrotic damage to any creature, the guard gains a number of temporary hit points equal to half that necrotic damage. The guard's speed also increases by 10 feet."
+									]
+								}
+							],
+							[
+								"4",
+								{
+									"type": "entries",
+									"name": "Blazing",
+									"entries": [
+										"The guard sloughs off its flesh, and its skeleton crumbles away, leaving only its skull. Its stat block is replaced by that of a flameskull, but it retains its Tattoo of the Chain trait, and all fire damage it deals becomes necrotic damage. The Tattoo of the Chain now appears carved into the skull's forehead."
+									]
+								}
+							],
+							[
+								"5",
+								{
+									"type": "entries",
+									"name": "Spectral",
+									"entries": [
+										"The guard now appears wraithlike, and its challenge rating increases by 1. It gains resistance to all damage but force, radiant, and psychic, and it is vulnerable to radiant damage. It can also move through creatures and objects as if they were difficult terrain, but it takes 16 ({@damage 3d10}) force damage if it ends its turn inside a creature or an object."
+									]
+								}
+							],
+							[
+								"6",
+								{
+									"type": "entries",
+									"name": "Deathly",
+									"entries": [
+										"The guard's visage becomes bone white, and its challenge rating increases by 1. It can cast animate dead and create undead once per day each, using Intelligence as the spellcasting ability, and it gains the following action:",
+										{
+											"type": "entries",
+											"name": "Circle of Death (Spell; {@recharge 5|m})",
+											"entries": [
+												"Each creature in a 60-foot-radius sphere centered on a point the guard can see within 150 feet of it must make a {@dc 18} Constitution saving throw, taking 59 ({@damage 17d6}) necrotic damage on a failed save, or half as much damage on a successful one.)"
+											]
+										}
+									]
+								}
+							]
+						]
+					}
+				],
+				"type": "variant"
+			}
+		],
+		"senseTags": [
+			"SD"
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"languageTags": [
+			"X"
+		],
+		"damageTags": [
+			"B",
+			"R",
+			"O",
+			"N"
+		],
+		"miscTags": [
+			"MW",
+			"RCH"
+		],
+		"conditionInflict": [
+			"paralyzed",
+			"frightened"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"tokenUrl": "https://5e.tools/img/VRGR/Priest of Osybus.png?v=1.131.6",
+		"fluff": {
+			"name": "Priest of Osybus",
+			"source": "VRGR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Necromancers of deep evil, the priests of Osybus steal the souls of others to fuel the priests' malevolent magic. Using this soul power, each priest can defy death and become an undead creature, potentially cheating the grave over and over.",
+						"This unholy order of priests was founded centuries ago by Osybus, a mysterious figure of unfathomable ambition and evil. Osybus sought to use others' souls as springboards to his own immortality. He forged pacts with any entity that would give him more power and delved into any eldritch secret that would prolong his life. He became a devotee of the Dark Powers and tapped into their immortal malice to fuel his apotheosis.",
+						"As his power grew, he attracted disciples who also wished to defy life and death. He shared his dread secrets with them and demanded their worship. In time, his goal was achieved: he became a lich of almost godly power. Acknowledging the role that his disciples played in his ascension, Osybus gifted them with a trace of his power. Taking the form of a shadowy tattoo, this boon allows the priests to steal souls as their master did and to cheat death and become undead horrors.",
+						"The threat posed by Osybus and his disciples raised alarms far and wide. In response, the Ulmist Inquisition and the then-mortal Count Strahd von Zarovich faced the lich in battle. Their bravery would have been for naught if Osybus's disciples hadn't betrayed him. Fearing that their master would eventually consume their souls, the disciples aided Osybus's foes and destroyed his physical form. As he perished, he uttered a curse upon them—that their immortality would fail them when they least expected it and that he himself would become one of the Dark Powers. As a result of that curse, a priest of Osybus can't be certain that they will be reborn when they perish.",
+						"In an effort to rid themselves of this curse, they devoted themselves to the same Dark Powers with whom their master had communed. They were given a mission: provide a person of nobility and might to serve as an earthly vessel for these powers to enter the world and conquer it. If they succeeded, their immortality would be assured. A suitable vessel they did then find: Strahd von Zarovich. Working in shadows and through intermediaries, the priests whispered hatred to the count, and when his noble heart was corrupted, they were the ones who laid the path before him that led to the Amber Temple and his fall into vampirism.",
+						"But they were then betrayed. Osybus had not lied; he had himself become one of the Dark Powers, and he and the other Dark Powers had conjured up a misty prison to contain the newly immortal Strahd, thereby preventing the count from serving as the conquering force that the priests sought to loose upon the world; thus they were denied their reward of immortality.",
+						"To this day, the priests of Osybus seek to unleash Strahd from the mists, often using adventurers as their pawns. They also ironically bear their hated founder's name, for they know it is his original deathly gift that gives them their horrific powers."
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Boons of Undeath",
+							"entries": [
+								"When a priest of Osybus drops to 0 hit points, the priest might revive with a benefit from the Boons of Undeath table. You can give a priest one or more of these boons of your choice before the priest faces adventurers. If you do so, the priest is Undead, rather than Humanoid, and a priest can receive each boon only once.",
+								{
+									"type": "table",
+									"caption": "Boons of Undeath",
+									"colLabels": [
+										"d6",
+										"Boon"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											{
+												"type": "entries",
+												"name": "Dread",
+												"entries": [
+													"Eerie whispers can now be heard around the priest. Any non-Undead creature that starts its turn within 30 feet of the priest must succeed on a DC 15 Wisdom saving throw or be frightened of the priest until the start of the creature's next turn."
+												]
+											}
+										],
+										[
+											"2",
+											{
+												"type": "entries",
+												"name": "Ectoplasmic",
+												"entries": [
+													"An otherworldly slime drips off the priest and fades away moments later, leaving a greenish stain. When any creature starts its turn within 10 feet of the priest, the priest can reduce that creature's speed by 10 feet until the start of the creature's next turn, until which the creature is covered by ectoplasm. In addition, as an action, the priest can use the slime to make itself look and feel like any creature that is Medium or Small, while retaining its game statistics. This transformation lasts for 8 hours or until the priest drops to 0 hit points."
+												]
+											}
+										],
+										[
+											"3",
+											{
+												"type": "entries",
+												"name": "Vampiric",
+												"entries": [
+													"When the priest deals necrotic damage to any creature, the priest gains a number of temporary hit points equal to half that necrotic damage. The priest's speed also increases by 10 feet."
+												]
+											}
+										],
+										[
+											"4",
+											{
+												"type": "entries",
+												"name": "Blazing",
+												"entries": [
+													"The priest sloughs off its flesh, and its skeleton crumbles away, leaving only its skull. Its stat block is replaced by that of a flameskull, but it retains its Tattoo of Osybus trait, and all fire damage it deals becomes necrotic damage. The Tattoo of Osybus now appears carved into the skull's forehead."
+												]
+											}
+										],
+										[
+											"5",
+											{
+												"type": "entries",
+												"name": "Spectral",
+												"entries": [
+													"The priest now appears wraithlike, and its challenge rating increases by 1. It gains resistance to all damage but force, radiant, and psychic, and it is vulnerable to radiant damage. It can also move through creatures and objects as if they were difficult terrain, but it takes 5 ({@dice 1d10}) force damage if it ends its turn inside a creature or an object."
+												]
+											}
+										],
+										[
+											"6",
+											{
+												"type": "entries",
+												"name": "Deathly",
+												"entries": [
+													"The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast animate dead and create undead once per day each, using Intelligence as the spellcasting ability, and it gains the following action: Circle of Death (Spell. Each creature in a 60-foot-radius sphere centered on a point the priest can see within 150 feet of it must make a DC 15 Constitution saving throw, taking 28 ({@dice 8d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+												]
+											}
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/VRGR/Priest of Osybus.jpg"
+					}
+				}
+			]
+		},
+		"alignment": [
+			"L",
+			"E"
+		],
+		"resist": [
+			"bludgeoning",
+			"piercing",
+			"slashing"
+		],
+		"page": 2,
+		"immune": [
+			"psychic",
+			"radiant"
+		],
+		"skill": {
+			"stealth": "+10",
+			"religion": "+8",
+			"intimidation": "+8"
+		},
+		"reaction": [
+			{
+				"name": "Sentinel at Death's Door",
+				"entries": [
+					"As a reaction when you or an ally that you can see within 30 feet of you suffers a critical hit, you can turn that attack into a normal hit. Any effects triggered by a critical hit are canceled."
+				]
+			}
+		]
+	},
+	{
+		"name": "Carlos Baedoz",
+		"source": "Bardomejorado",
+		"page": 235,
+		"size": "M",
+		"type": {
+			"type": "humanoid",
+			"tags": [
+				"human"
+			]
+		},
+		"alignment": [
+			"L",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 18,
+				"from": [
+					"{@item splint armor|phb}"
+				]
+			}
+		],
+		"hp": {
+			"formula": "10d8 + 50",
+			"average": 95
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 18,
+		"dex": 12,
+		"con": 20,
+		"int": 12,
+		"wis": 16,
+		"cha": 20,
+		"save": {
+			"wis": "+7",
+			"str": "+8"
+		},
+		"skill": {
+			"intimidation": "+7",
+			"perception": "+7",
+			"persuasion": "+9"
+		},
+		"passive": 17,
+		"conditionImmune": [
+			"frightened"
+		],
+		"languages": [
+			"Common"
+		],
+		"cr": "10",
+		"spellcasting": [
+			{
+				"name": "Spellcasting",
+				"headerEntries": [
+					"Carlos Baedoz is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It has the following cleric spells prepared:"
+				],
+				"spells": {
+					"0": {
+						"spells": [
+							"{@spell guidance}",
+							"{@spell sacred flame}",
+							"{@spell thaumaturgy}"
+						]
+					},
+					"1": {
+						"spells": [
+							"{@spell bane}",
+							"{@spell bless}",
+							"{@spell guiding bolt} "
+						],
+						"slots": 4
+					},
+					"2": {
+						"spells": [
+							"{@spell blindness/deafness}",
+							"{@spell hold person}",
+							"{@spell silence}"
+						],
+						"slots": 3
+					},
+					"3": {
+						"spells": [
+							"{@spell mass healing word}",
+							"{@spell sending}"
+						],
+						"slots": 2
+					}
+				},
+				"ability": "cha",
+				"type": "spellcasting"
+			},
+			{
+				"name": "Spellcasting",
+				"daily": {
+					"1e": [
+						"{@spell danse macabre|XGE}",
+						"{@spell dominate person}",
+						"{@spell raise dead}"
+					]
+				},
+				"type": "spellcasting"
+			}
+		],
+		"trait": [
+			{
+				"name": "Aura of Terror",
+				"entries": [
+					"When a hostile creature within 5 feet of Carlos Baedoz makes an attack roll or a saving throw, it has disadvantage on the roll. Creatures that are immune to the {@condition frightened} condition are immune to this trait."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"Carlos Baedoz makes two attacks with its mace."
+				]
+			},
+			{
+				"name": "Mace",
+				"entries": [
+					"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage plus 18 ({@damage 3d8 + 5}) necrotic damage."
+				]
+			}
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"languageTags": [
+			"C"
+		],
+		"damageTags": [
+			"B",
+			"N"
+		],
+		"spellcastingTags": [
+			"CC"
+		],
+		"miscTags": [
+			"MW"
+		],
+		"conditionInflictSpell": [
+			"blinded",
+			"deafened",
+			"paralyzed"
+		],
+		"hasFluff": true,
+		"tokenUrl": "https://5e.tools/img/BGDIA/Black Gauntlet of Bane.png?v=1.132.3",
+		"fluff": {
+			"name": "Black Gauntlet of Bane",
+			"source": "BGDIA",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Bane's devoted followers are warriors who seek to rule through martial strength and intimidation, cruel tyrants who use threats and gifts as needed to ensure loyalty. They enslave those too weak to resist them and shower the strong with gifts and promises of power to turn them into loyal vassals.",
+								{
+									"type": "entries",
+									"name": "Cruel Tyrants",
+									"entries": [
+										"Whenever Bane's followers gain power, they institute draconian measures to ensure that their rule is unquestioned. They stamp out all opposition while richly rewarding those who swear fealty."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Warrior Cult",
+									"entries": [
+										"Cultists of Bane are warriors who wear heavy armor and wield maces, swords, spears, and crossbows. They paint the right gauntlet of their armor black in honor of their patron. Bane's clerics wield black maces with heads shaped to look like a closed fist."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Cult Ranks",
+									"entries": [
+										"Bane's cultists operate according to strict military hierarchies. The lowest rank consists of the fists of Bane, foot soldiers who obey all orders without hesitation. They are led by iron consuls, cunning field officers who excel at coordinating the fists in combat. The black gauntlets are the priests who command the consuls."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"bonus": [
+			{
+				"name": "Words of Submission {@recharge 5}",
+				"entries": [
+					"As a bonus action,Carlos Baedoz channels the voice of Bane through a word of power. Each creature of the cult exarch's choice that is within 60 feet of it, can hear it, and not already affected by Word of Submission must succeed on a {@dc 15} Wisdom saving throw. On a failed save, the creature takes 18 (4d8) psychic damage and must kneel and bow until the end of the cult exarch's next turn. Until this kneeling and bowing ends, the target can't take actions or reactions, and its speed is 0 and can't be increased. If a creature's saving throw is successful, the creature is immune to Word of Submission for the next 24 hours. On a successful save, the creature takes half as much damage."
+				]
+			}
+		]
+	},
+	{
+		"name": "Easy Young Purple Worm",
+		"source": "Bardomejorado",
+		"page": 113,
+		"hp": {
+			"formula": "10d20 + 60",
+			"average": 165
+		},
+		"cr": "8",
+		"size": "G",
+		"type": "monstrosity",
+		"alignment": [
+			"U"
+		],
+		"ac": [
+			{
+				"ac": 16,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"speed": {
+			"walk": 50,
+			"burrow": 30
+		},
+		"str": 28,
+		"dex": 7,
+		"con": 22,
+		"int": 1,
+		"wis": 8,
+		"cha": 4,
+		"save": {
+			"con": "+9",
+			"wis": "+2"
+		},
+		"senses": [
+			"blindsight 30 ft.",
+			"tremorsense 60 ft."
+		],
+		"passive": 9,
+		"trait": [
+			{
+				"name": "Tunneler",
+				"entries": [
+					"The worm can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The worm makes two attacks: one with its bite and one with its stinger."
+				]
+			},
+			{
+				"name": "Bite",
+				"entries": [
+					"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d8 + 6}) piercing damage. If the target is a Large or smaller creature, it must succeed on a {@dc 16} Dexterity saving throw or be swallowed by the worm. A swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the worm, and it takes 18 ({@damage 6d6}) acid damage at the start of each of the worm's turns.",
+					"If the worm takes 20 damage or more on a single turn from a creature inside it, the worm must succeed on a {@dc 22} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall {@condition prone} in a space within 10 feet of the worm. If the worm dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 20 feet of movement, exiting {@condition prone}."
+				]
+			},
+			{
+				"name": "Tail Stinger",
+				"entries": [
+					"{@atk mw} {@hit 10} to hit, reach 10 ft., one creature. {@h}19 ({@damage 3d6 + 6}) piercing damage, and the target must make a {@dc 15} Constitution saving throw, taking 24 ({@damage 8d6}) poison damage on a failed save, or half as much damage on a successful one."
+				]
+			}
+		],
+		"senseTags": [
+			"B",
+			"T"
+		],
+		"actionTags": [
+			"Multiattack",
+			"Swallow"
+		],
+		"damageTags": [
+			"P",
+			"A",
+			"I"
+		],
+		"miscTags": [
+			"MW",
+			"RCH"
+		],
+		"conditionInflict": [
+			"blinded",
+			"restrained"
+		],
+		"tokenUrl": "https://5e.tools/img/PotA/Young Purple Worm.png?v=1.126.0"
+	},
+	{
+		"name": "Eslabón (Guarda de Cadenas)",
+		"source": "Bardomejorado",
+		"size": "M",
+		"type": "humanoid",
+		"ac": [
+			{
+				"ac": 15,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"hp": {
+			"formula": "10d8 + 30",
+			"average": 75
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 10,
+		"dex": 16,
+		"con": 16,
+		"int": 14,
+		"wis": 17,
+		"cha": 11,
+		"save": {
+			"wis": "+6",
+			"dex": "+6"
+		},
+		"senses": [
+			"darkvision 120 ft."
+		],
+		"passive": 13,
+		"conditionImmune": [
+			"frightened"
+		],
+		"languages": [
+			"any three languages"
+		],
+		"cr": "6",
+		"trait": [
+			{
+				"name": "Tattoo of the Chain",
+				"entries": [
+					"If the guard drops to 0 hit points, roll on the Boons of Undeath table for the boon the guard receives. The guard dies if it receives a boon it already has. If it receives a new boon, it revives at the start of its next turn with half its hit points restored, and its creature type is now Undead.",
+					"To prevent this revival, the Tattoo of the Chain on the guard's body must be destroyed. Attacks against the tattoo are at disadvantage and it is consider an object with AC 15, and it is immune to poison and psychic damage. It has 15 hit points, but it regains all its hit points at the end of every combatant's turn."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The guard attacks twice."
+				]
+			},
+			{
+				"name": "Soul Chains",
+				"entries": [
+					"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}9 ({@damage 3d4 + 2}) bludgeoning damage, and if the target is a creature, it must suceed on a {@dc 15} Wisdom saving throw or it is {@condition paralyzed} until the start of the guard's next turn. If this damage reduces the creature to 0 hit points, the creature dies, and its soul is trapped in the guard's body, manifesting as a shadowy Soul Tattoo on the guard. The soul is freed if the guard dies."
+				]
+			},
+			{
+				"name": "Radiant Bolt",
+				"entries": [
+					"{@atk rs} {@hit 5} to hit, range 120 ft., one target. {@h}17 ({@damage 1d8 + 4}) radiant damage, and the target can't regain hit points until the start of the guard's next turn."
+				]
+			},
+			{
+				"name": "Path to the Grave",
+				"entries": [
+					"As an action, you choose one creature you can see within 30 feet of you, cursing it until the end of your next turn. The next time you or an ally of yours hits the cursed creature with an attack, the creature has vulnerability to all of that attack's damage, and then the curse ends."
+				]
+			}
+		],
+		"bonus": [
+			{
+				"name": "Soul {@recharge 5}",
+				"entries": [
+					"The guard touches one of the Soul Tattoos on its body. The tattoo vanishes as the trapped soul manifests as a shadowy creature that appears in an unoccupied space the guard can see within 30 feet of it. The creature has the size and silhouette of its original body, but it otherwise uses the stat block of a shadow.",
+					"The shadow obeys the guard's mental commands (no action required) and takes its turn immediately after the guard. If the creature is within 5 feet of the guard, it can turn back into a tattoo as an action, reappearing on the guard's flesh and regaining all its hit points."
+				]
+			}
+		],
+		"variant": [
+			{
+				"name": "Boons of Undeath",
+				"entries": [
+					"When a guard of the Chain drops to 0 hit points, the guard might revive with a benefit from the Boons of Undeath table. You can give a guard one or more of these boons of your choice before the guard faces adventurers. If you do so, the guard is Undead, rather than Humanoid, and a guard can receive each boon only once.",
+					{
+						"type": "table",
+						"caption": "Boons of Undeath",
+						"colLabels": [
+							"d6",
+							"Boon"
+						],
+						"colStyles": [
+							"col-1 text-center",
+							"col-11"
+						],
+						"rows": [
+							[
+								"1",
+								{
+									"type": "entries",
+									"name": "Dread",
+									"entries": [
+										"Eerie whispers can now be heard around the guard. Any non-Undead creature that starts its turn within 30 feet of the guard must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} of the guard until the start of the creature's next turn."
+									]
+								}
+							],
+							[
+								"2",
+								{
+									"type": "entries",
+									"name": "Ectoplasmic",
+									"entries": [
+										"An otherworldly slime drips off the guard and fades away moments later, leaving a greenish stain. When any creature starts its turn within 10 feet of the guard, the guard can reduce that creature's speed by 10 feet until the start of the creature's next turn, until which the creature is covered by ectoplasm. In addition, as an action, the guard can use the slime to make itself look and feel like any creature that is Medium or Small, while retaining its game statistics. This transformation lasts for 8 hours or until the guard drops to 0 hit points."
+									]
+								}
+							],
+							[
+								"3",
+								{
+									"type": "entries",
+									"name": "Vampiric",
+									"entries": [
+										"When the guard deals necrotic damage to any creature, the guard gains a number of temporary hit points equal to half that necrotic damage. The guard's speed also increases by 10 feet."
+									]
+								}
+							],
+							[
+								"4",
+								{
+									"type": "entries",
+									"name": "Blazing",
+									"entries": [
+										"The guard sloughs off its flesh, and its skeleton crumbles away, leaving only its skull. Its stat block is replaced by that of a flameskull, but it retains its Tattoo of the Chain trait, and all fire damage it deals becomes necrotic damage. The Tattoo of the Chain now appears carved into the skull's forehead."
+									]
+								}
+							],
+							[
+								"5",
+								{
+									"type": "entries",
+									"name": "Spectral",
+									"entries": [
+										"The guard now appears wraithlike, and its challenge rating increases by 1. It gains resistance to all damage but force, radiant, and psychic, and it is vulnerable to radiant damage. It can also move through creatures and objects as if they were difficult terrain, but it takes 5 ({@damage 1d10}) force damage if it ends its turn inside a creature or an object."
+									]
+								}
+							],
+							[
+								"6",
+								{
+									"type": "entries",
+									"name": "Deathly",
+									"entries": [
+										"The guard's visage becomes bone white, and its challenge rating increases by 1. It can cast animate dead and create undead once per day each, using Intelligence as the spellcasting ability, and it gains the following action:",
+										{
+											"type": "entries",
+											"name": "Circle of Death (Spell; {@recharge 5|m})",
+											"entries": [
+												"Each creature in a 60-foot-radius sphere centered on a point the guard can see within 150 feet of it must make a {@dc 15} Constitution saving throw, taking 28 ({@damage 8d6}) necrotic damage on a failed save, or half as much damage on a successful one.)"
+											]
+										}
+									]
+								}
+							]
+						]
+					}
+				],
+				"type": "variant"
+			}
+		],
+		"senseTags": [
+			"SD"
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"languageTags": [
+			"X"
+		],
+		"damageTags": [
+			"B",
+			"R",
+			"O",
+			"N"
+		],
+		"miscTags": [
+			"MW",
+			"RCH"
+		],
+		"conditionInflict": [
+			"paralyzed",
+			"frightened"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"tokenUrl": "https://5e.tools/img/VRGR/Priest of Osybus.png?v=1.131.6",
+		"fluff": {
+			"name": "Priest of Osybus",
+			"source": "VRGR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Necromancers of deep evil, the priests of Osybus steal the souls of others to fuel the priests' malevolent magic. Using this soul power, each priest can defy death and become an undead creature, potentially cheating the grave over and over.",
+						"This unholy order of priests was founded centuries ago by Osybus, a mysterious figure of unfathomable ambition and evil. Osybus sought to use others' souls as springboards to his own immortality. He forged pacts with any entity that would give him more power and delved into any eldritch secret that would prolong his life. He became a devotee of the Dark Powers and tapped into their immortal malice to fuel his apotheosis.",
+						"As his power grew, he attracted disciples who also wished to defy life and death. He shared his dread secrets with them and demanded their worship. In time, his goal was achieved: he became a lich of almost godly power. Acknowledging the role that his disciples played in his ascension, Osybus gifted them with a trace of his power. Taking the form of a shadowy tattoo, this boon allows the priests to steal souls as their master did and to cheat death and become undead horrors.",
+						"The threat posed by Osybus and his disciples raised alarms far and wide. In response, the Ulmist Inquisition and the then-mortal Count Strahd von Zarovich faced the lich in battle. Their bravery would have been for naught if Osybus's disciples hadn't betrayed him. Fearing that their master would eventually consume their souls, the disciples aided Osybus's foes and destroyed his physical form. As he perished, he uttered a curse upon them—that their immortality would fail them when they least expected it and that he himself would become one of the Dark Powers. As a result of that curse, a priest of Osybus can't be certain that they will be reborn when they perish.",
+						"In an effort to rid themselves of this curse, they devoted themselves to the same Dark Powers with whom their master had communed. They were given a mission: provide a person of nobility and might to serve as an earthly vessel for these powers to enter the world and conquer it. If they succeeded, their immortality would be assured. A suitable vessel they did then find: Strahd von Zarovich. Working in shadows and through intermediaries, the priests whispered hatred to the count, and when his noble heart was corrupted, they were the ones who laid the path before him that led to the Amber Temple and his fall into vampirism.",
+						"But they were then betrayed. Osybus had not lied; he had himself become one of the Dark Powers, and he and the other Dark Powers had conjured up a misty prison to contain the newly immortal Strahd, thereby preventing the count from serving as the conquering force that the priests sought to loose upon the world; thus they were denied their reward of immortality.",
+						"To this day, the priests of Osybus seek to unleash Strahd from the mists, often using adventurers as their pawns. They also ironically bear their hated founder's name, for they know it is his original deathly gift that gives them their horrific powers."
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Boons of Undeath",
+							"entries": [
+								"When a priest of Osybus drops to 0 hit points, the priest might revive with a benefit from the Boons of Undeath table. You can give a priest one or more of these boons of your choice before the priest faces adventurers. If you do so, the priest is Undead, rather than Humanoid, and a priest can receive each boon only once.",
+								{
+									"type": "table",
+									"caption": "Boons of Undeath",
+									"colLabels": [
+										"d6",
+										"Boon"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											{
+												"type": "entries",
+												"name": "Dread",
+												"entries": [
+													"Eerie whispers can now be heard around the priest. Any non-Undead creature that starts its turn within 30 feet of the priest must succeed on a DC 15 Wisdom saving throw or be frightened of the priest until the start of the creature's next turn."
+												]
+											}
+										],
+										[
+											"2",
+											{
+												"type": "entries",
+												"name": "Ectoplasmic",
+												"entries": [
+													"An otherworldly slime drips off the priest and fades away moments later, leaving a greenish stain. When any creature starts its turn within 10 feet of the priest, the priest can reduce that creature's speed by 10 feet until the start of the creature's next turn, until which the creature is covered by ectoplasm. In addition, as an action, the priest can use the slime to make itself look and feel like any creature that is Medium or Small, while retaining its game statistics. This transformation lasts for 8 hours or until the priest drops to 0 hit points."
+												]
+											}
+										],
+										[
+											"3",
+											{
+												"type": "entries",
+												"name": "Vampiric",
+												"entries": [
+													"When the priest deals necrotic damage to any creature, the priest gains a number of temporary hit points equal to half that necrotic damage. The priest's speed also increases by 10 feet."
+												]
+											}
+										],
+										[
+											"4",
+											{
+												"type": "entries",
+												"name": "Blazing",
+												"entries": [
+													"The priest sloughs off its flesh, and its skeleton crumbles away, leaving only its skull. Its stat block is replaced by that of a flameskull, but it retains its Tattoo of Osybus trait, and all fire damage it deals becomes necrotic damage. The Tattoo of Osybus now appears carved into the skull's forehead."
+												]
+											}
+										],
+										[
+											"5",
+											{
+												"type": "entries",
+												"name": "Spectral",
+												"entries": [
+													"The priest now appears wraithlike, and its challenge rating increases by 1. It gains resistance to all damage but force, radiant, and psychic, and it is vulnerable to radiant damage. It can also move through creatures and objects as if they were difficult terrain, but it takes 5 ({@dice 1d10}) force damage if it ends its turn inside a creature or an object."
+												]
+											}
+										],
+										[
+											"6",
+											{
+												"type": "entries",
+												"name": "Deathly",
+												"entries": [
+													"The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast animate dead and create undead once per day each, using Intelligence as the spellcasting ability, and it gains the following action: Circle of Death (Spell. Each creature in a 60-foot-radius sphere centered on a point the priest can see within 150 feet of it must make a DC 15 Constitution saving throw, taking 28 ({@dice 8d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+												]
+											}
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/VRGR/Priest of Osybus.jpg"
+					}
+				}
+			]
+		},
+		"alignment": [
+			"L",
+			"E"
+		],
+		"resist": [
+			"psychic",
+			"radiant"
+		],
+		"page": 2
+	},
+	{
+		"name": "Giant Horned Frog",
+		"source": "Bardomejorado",
+		"size": "H",
+		"type": "monstrosity",
+		"alignment": [
+			"U"
+		],
+		"ac": [
+			{
+				"ac": 14,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"hp": {
+			"formula": "10d12 + 40",
+			"average": 105
+		},
+		"speed": {
+			"walk": 30,
+			"swim": 30
+		},
+		"str": 22,
+		"dex": 13,
+		"con": 20,
+		"int": 2,
+		"wis": 12,
+		"cha": 5,
+		"save": {
+			"con": "+8",
+			"wis": "+4"
+		},
+		"skill": {
+			"perception": "+7",
+			"stealth": "+4"
+		},
+		"senses": [
+			"darkvision 60 ft."
+		],
+		"passive": 17,
+		"resist": [
+			"fire"
+		],
+		"cr": "6",
+		"trait": [
+			{
+				"name": "Amphibious",
+				"entries": [
+					"The Giant Horned Frog can breathe air and water."
+				]
+			},
+			{
+				"name": "Shock Susceptibility",
+				"entries": [
+					"If the Giant Horned Frog takes lightning damage, it suffers several effects until the end of its next turn: its speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, it can't use reactions or Multiattack, and on its turn, it can use either an action or a bonus action, not both."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The Giant Horned Frog makes two attacks with its horn. It can also use its tongue or swallow."
+				]
+			},
+			{
+				"name": "Horn",
+				"entries": [
+					"{@atk mw} {@hit 6} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d8 + 6}) piercing damage."
+				]
+			},
+			{
+				"name": "Bite",
+				"entries": [
+					"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d10 + 6}) acid damage, and the target is swallowed if it is a Medium or smaller creature. A swallowed creature is {@condition blinded} and {@condition restrained}, has total cover against attacks and other effects outside the Giant Horned Frog, and takes 10 ({@damage 3d6}) acid damage at the start of each of the Giant Horned Frog turns.",
+					"The Giant Horned Frog gullet can hold up to two creatures at a time. If the Giant Horned Frog takes 20 damage or more on a single turn from a creature inside it, the Giant Horned Frog must succeed on a {@dc 20} Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls {@condition prone} in a space within 10 feet of the Giant Horned Frog. If the Giant Horned Frog dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 10 feet of movement, exiting {@condition prone}."
+				]
+			},
+			{
+				"name": "Tongue",
+				"entries": [
+					"The Giant Horned Frog targets one Medium or smaller creature that it can see within 20 feet of it. The target must make a {@dc 18} Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the Giant Horned Frog, and the Giant Horned Frog can make a bite attack against it as a bonus action."
+				]
+			}
+		],
+		"environment": [
+			"swamp",
+			"underdark"
+		],
+		"soundClip": {
+			"type": "external",
+			"url": "https://5e.tools/audio/bestiary/froghemoth.mp3?v=1.125.3"
+		},
+		"traitTags": [
+			"Amphibious"
+		],
+		"senseTags": [
+			"D"
+		],
+		"actionTags": [
+			"Multiattack",
+			"Swallow"
+		],
+		"damageTags": [
+			"P",
+			"A"
+		],
+		"miscTags": [
+			"MW",
+			"RCH"
+		],
+		"conditionInflict": [
+			"blinded",
+			"restrained"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"tokenUrl": "https://5e.tools/img/VGM/Froghemoth.png?v=1.125.3",
+		"fluff": {
+			"name": "Froghemoth",
+			"source": "VGM",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"A froghemoth is an amphibious predator as big as an elephant. It lairs in swamps and has four tentacles, a thick rubbery hide, a fang-filled maw with a prehensile tongue, and an extendable stalk sporting three bulbous eyes that face in different directions.",
+										{
+											"name": "Otherworldly Entities",
+											"entries": [
+												" Froghemoths are creatures not of this world. A journal purportedly written long ago by the wizard Lum the Mad describes strange, cylindrical chambers of metal buried in the ground from which froghemoths emerged, but no reliable reports of the location of such places exist."
+											],
+											"type": "entries"
+										},
+										{
+											"name": "Hungry from Birth",
+											"entries": [
+												" Every few years, a froghemoth can lay a fertile egg without mating. The froghemoth cares nothing for its egg, and might eat the hatchling. A young froghemoth's survival is most often predicated on its parent leaving it behind in indifference. A newborn froghemoth grows to full size over a period of months by indiscriminately preying on other creatures in its swampy domain. It learns to hide its enormous body in murky pools, keeping only its eyestalk above water to watch for passing creatures. When food comes within reach, the froghemoth erupts from its pool, tentacles and tongue flailing. It can grab several targets at once, keeping them at bay while it wraps its tongue around another one and pulls it in to be devoured."
+											],
+											"type": "entries"
+										},
+										{
+											"name": "Revered by Bullywugs",
+											"entries": [
+												" If a bullywug tribe comes across a froghemoth, the bullywugs treat the froghemoth as a god and do all they can to coax the monster into their den. A froghemoth can be tamed (after a fashion) by offering it food, and bullywugs can communicate with it on a basic level, so the creature might eat only a few bullywugs before following the rest. Bullywugs gather food as tribute for it, provide it with a comfortable lair, fanatically protect it from harm, and try to ensure that any young froghemoth reaches maturity."
+											],
+											"type": "entries"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/VGM/Froghemoth.jpg"
+					}
+				}
+			]
+		},
+		"vulnerable": []
+	},
+	{
+		"name": "Guardian (Guarda de Cadenas)",
+		"source": "Bardomejorado",
+		"size": "M",
+		"type": "humanoid",
+		"ac": [
+			{
+				"ac": 17,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"hp": {
+			"formula": "13d8 + 39",
+			"average": 97
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 12,
+		"dex": 18,
+		"con": 16,
+		"int": 14,
+		"wis": 18,
+		"cha": 14,
+		"save": {
+			"wis": "+8",
+			"dex": "+8",
+			"cha": "+6"
+		},
+		"senses": [
+			"darkvision 120 ft."
+		],
+		"passive": 14,
+		"conditionImmune": [
+			"frightened"
+		],
+		"languages": [
+			"any three languages"
+		],
+		"cr": "10",
+		"trait": [
+			{
+				"name": "Tattoo of the Chain",
+				"entries": [
+					"If the guard drops to 0 hit points, roll on the Boons of Undeath table for the boon the guard receives. The guard dies if it receives a boon it already has. If it receives a new boon, it revives at the start of its next turn with half its hit points restored, and its creature type is now Undead.",
+					"To prevent this revival, the Tattoo of the Chain on the guard's body must be destroyed. Attacks against the tattoo are at disadvantage and it is consider an object with AC 18, and it is immune to poison and psychic damage. It has 30 hit points, but it regains all its hit points at the end of every combatant's turn."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The guard attacks twice."
+				]
+			},
+			{
+				"name": "Soul Chains",
+				"entries": [
+					"{@atk mw} {@hit 9} to hit, reach 15 ft., one target. {@h}13 ({@damage 4d4 + 5}) bludgeoning damage, ({@damage 2d10 + 3}) radiant damage, and if the target is a creature, it must suceed on a {@dc 17} Wisdom saving throw or it is {@condition paralyzed} until the start of the guard's next turn. If this damage reduces the creature to 0 hit points, the creature dies, and its soul is trapped in the guard's body, manifesting as a shadowy link on the guards chain on the guard. The soul is freed if the guard dies."
+				]
+			},
+			{
+				"name": "Radiant Bolt",
+				"entries": [
+					"{@atk rs} {@hit 6} to hit, range 120 ft., one target. {@h}14 ({@damage 2d8 + 5}) radiant damage, and the target can't regain hit points until the start of the guard's next turn."
+				]
+			},
+			{
+				"name": "Path to the Grave",
+				"entries": [
+					"As an action, you choose one creature you can see within 30 feet of you, cursing it until the end of your next turn. The next time you or an ally of yours hits the cursed creature with an attack, the creature has vulnerability to all of that attack's damage, and then the curse ends."
+				]
+			}
+		],
+		"bonus": [
+			{
+				"name": "Soul Chain",
+				"entries": [
+					"The guard touches two of the links on its chains. The links vanishes as the trapped souls manifests as two shadowy creatures that appears in an unoccupied space the guard can see within 30 feet of it. The creatures has the size and silhouette of its original body, but it otherwise uses the stat block of a shadow.",
+					"The shadow obeys the guard's mental commands (no action required) and takes its turn immediately after the guard. If the creature is within 5 feet of the guard, it can turn back into a tattoo as an action, reappearing on the guard's flesh and regaining all its hit points."
+				]
+			}
+		],
+		"variant": [
+			{
+				"name": "Boons of Undeath",
+				"entries": [
+					"When a guard of the Chain drops to 0 hit points, the guard might revive with a benefit from the Boons of Undeath table. You can give a guard one or more of these boons of your choice before the guard faces adventurers. If you do so, the guard is Undead, rather than Humanoid, and a guard can receive each boon only once.",
+					{
+						"type": "table",
+						"caption": "Boons of Undeath",
+						"colLabels": [
+							"d6",
+							"Boon"
+						],
+						"colStyles": [
+							"col-1 text-center",
+							"col-11"
+						],
+						"rows": [
+							[
+								"1",
+								{
+									"type": "entries",
+									"name": "Dread",
+									"entries": [
+										"Eerie whispers can now be heard around the guard. Any non-Undead creature that starts its turn within 30 feet of the guard must succeed on a {@dc 18} Wisdom saving throw or be {@condition frightened} of the guard until the start of the creature's next turn."
+									]
+								}
+							],
+							[
+								"2",
+								{
+									"type": "entries",
+									"name": "Ectoplasmic",
+									"entries": [
+										"An otherworldly slime drips off the guard and fades away moments later, leaving a greenish stain. When any creature starts its turn within 10 feet of the guard, the guard can reduce that creature's speed by 10 feet until the start of the creature's next turn, until which the creature is covered by ectoplasm. In addition, as an action, the guard can use the slime to make itself look and feel like any creature that is Medium or Small, while retaining its game statistics. This transformation lasts for 8 hours or until the guard drops to 0 hit points."
+									]
+								}
+							],
+							[
+								"3",
+								{
+									"type": "entries",
+									"name": "Vampiric",
+									"entries": [
+										"When the guard deals necrotic damage to any creature, the guard gains a number of temporary hit points equal to half that necrotic damage. The guard's speed also increases by 10 feet."
+									]
+								}
+							],
+							[
+								"4",
+								{
+									"type": "entries",
+									"name": "Blazing",
+									"entries": [
+										"The guard sloughs off its flesh, and its skeleton crumbles away, leaving only its skull. Its stat block is replaced by that of a flameskull, but it retains its Tattoo of the Chain trait, and all fire damage it deals becomes necrotic damage. The Tattoo of the Chain now appears carved into the skull's forehead."
+									]
+								}
+							],
+							[
+								"5",
+								{
+									"type": "entries",
+									"name": "Spectral",
+									"entries": [
+										"The guard now appears wraithlike, and its challenge rating increases by 1. It gains resistance to all damage but force, radiant, and psychic, and it is vulnerable to radiant damage. It can also move through creatures and objects as if they were difficult terrain, but it takes 11 ({@damage 2d10}) force damage if it ends its turn inside a creature or an object."
+									]
+								}
+							],
+							[
+								"6",
+								{
+									"type": "entries",
+									"name": "Deathly",
+									"entries": [
+										"The guard's visage becomes bone white, and its challenge rating increases by 1. It can cast animate dead and create undead once per day each, using Intelligence as the spellcasting ability, and it gains the following action:",
+										{
+											"type": "entries",
+											"name": "Circle of Death (Spell; {@recharge 5|m})",
+											"entries": [
+												"Each creature in a 60-foot-radius sphere centered on a point the guard can see within 150 feet of it must make a {@dc 16} Constitution saving throw, taking 42 ({@damage 12d6}) necrotic damage on a failed save, or half as much damage on a successful one.)"
+											]
+										}
+									]
+								}
+							]
+						]
+					}
+				],
+				"type": "variant"
+			}
+		],
+		"senseTags": [
+			"SD"
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"languageTags": [
+			"X"
+		],
+		"damageTags": [
+			"B",
+			"R",
+			"O",
+			"N"
+		],
+		"miscTags": [
+			"MW",
+			"RCH"
+		],
+		"conditionInflict": [
+			"paralyzed",
+			"frightened"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"tokenUrl": "https://5e.tools/img/VRGR/Priest of Osybus.png?v=1.131.6",
+		"fluff": {
+			"name": "Priest of Osybus",
+			"source": "VRGR",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Necromancers of deep evil, the priests of Osybus steal the souls of others to fuel the priests' malevolent magic. Using this soul power, each priest can defy death and become an undead creature, potentially cheating the grave over and over.",
+						"This unholy order of priests was founded centuries ago by Osybus, a mysterious figure of unfathomable ambition and evil. Osybus sought to use others' souls as springboards to his own immortality. He forged pacts with any entity that would give him more power and delved into any eldritch secret that would prolong his life. He became a devotee of the Dark Powers and tapped into their immortal malice to fuel his apotheosis.",
+						"As his power grew, he attracted disciples who also wished to defy life and death. He shared his dread secrets with them and demanded their worship. In time, his goal was achieved: he became a lich of almost godly power. Acknowledging the role that his disciples played in his ascension, Osybus gifted them with a trace of his power. Taking the form of a shadowy tattoo, this boon allows the priests to steal souls as their master did and to cheat death and become undead horrors.",
+						"The threat posed by Osybus and his disciples raised alarms far and wide. In response, the Ulmist Inquisition and the then-mortal Count Strahd von Zarovich faced the lich in battle. Their bravery would have been for naught if Osybus's disciples hadn't betrayed him. Fearing that their master would eventually consume their souls, the disciples aided Osybus's foes and destroyed his physical form. As he perished, he uttered a curse upon them—that their immortality would fail them when they least expected it and that he himself would become one of the Dark Powers. As a result of that curse, a priest of Osybus can't be certain that they will be reborn when they perish.",
+						"In an effort to rid themselves of this curse, they devoted themselves to the same Dark Powers with whom their master had communed. They were given a mission: provide a person of nobility and might to serve as an earthly vessel for these powers to enter the world and conquer it. If they succeeded, their immortality would be assured. A suitable vessel they did then find: Strahd von Zarovich. Working in shadows and through intermediaries, the priests whispered hatred to the count, and when his noble heart was corrupted, they were the ones who laid the path before him that led to the Amber Temple and his fall into vampirism.",
+						"But they were then betrayed. Osybus had not lied; he had himself become one of the Dark Powers, and he and the other Dark Powers had conjured up a misty prison to contain the newly immortal Strahd, thereby preventing the count from serving as the conquering force that the priests sought to loose upon the world; thus they were denied their reward of immortality.",
+						"To this day, the priests of Osybus seek to unleash Strahd from the mists, often using adventurers as their pawns. They also ironically bear their hated founder's name, for they know it is his original deathly gift that gives them their horrific powers."
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Boons of Undeath",
+							"entries": [
+								"When a priest of Osybus drops to 0 hit points, the priest might revive with a benefit from the Boons of Undeath table. You can give a priest one or more of these boons of your choice before the priest faces adventurers. If you do so, the priest is Undead, rather than Humanoid, and a priest can receive each boon only once.",
+								{
+									"type": "table",
+									"caption": "Boons of Undeath",
+									"colLabels": [
+										"d6",
+										"Boon"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											{
+												"type": "entries",
+												"name": "Dread",
+												"entries": [
+													"Eerie whispers can now be heard around the priest. Any non-Undead creature that starts its turn within 30 feet of the priest must succeed on a DC 15 Wisdom saving throw or be frightened of the priest until the start of the creature's next turn."
+												]
+											}
+										],
+										[
+											"2",
+											{
+												"type": "entries",
+												"name": "Ectoplasmic",
+												"entries": [
+													"An otherworldly slime drips off the priest and fades away moments later, leaving a greenish stain. When any creature starts its turn within 10 feet of the priest, the priest can reduce that creature's speed by 10 feet until the start of the creature's next turn, until which the creature is covered by ectoplasm. In addition, as an action, the priest can use the slime to make itself look and feel like any creature that is Medium or Small, while retaining its game statistics. This transformation lasts for 8 hours or until the priest drops to 0 hit points."
+												]
+											}
+										],
+										[
+											"3",
+											{
+												"type": "entries",
+												"name": "Vampiric",
+												"entries": [
+													"When the priest deals necrotic damage to any creature, the priest gains a number of temporary hit points equal to half that necrotic damage. The priest's speed also increases by 10 feet."
+												]
+											}
+										],
+										[
+											"4",
+											{
+												"type": "entries",
+												"name": "Blazing",
+												"entries": [
+													"The priest sloughs off its flesh, and its skeleton crumbles away, leaving only its skull. Its stat block is replaced by that of a flameskull, but it retains its Tattoo of Osybus trait, and all fire damage it deals becomes necrotic damage. The Tattoo of Osybus now appears carved into the skull's forehead."
+												]
+											}
+										],
+										[
+											"5",
+											{
+												"type": "entries",
+												"name": "Spectral",
+												"entries": [
+													"The priest now appears wraithlike, and its challenge rating increases by 1. It gains resistance to all damage but force, radiant, and psychic, and it is vulnerable to radiant damage. It can also move through creatures and objects as if they were difficult terrain, but it takes 5 ({@dice 1d10}) force damage if it ends its turn inside a creature or an object."
+												]
+											}
+										],
+										[
+											"6",
+											{
+												"type": "entries",
+												"name": "Deathly",
+												"entries": [
+													"The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast animate dead and create undead once per day each, using Intelligence as the spellcasting ability, and it gains the following action: Circle of Death (Spell. Each creature in a 60-foot-radius sphere centered on a point the priest can see within 150 feet of it must make a DC 15 Constitution saving throw, taking 28 ({@dice 8d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+												]
+											}
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/VRGR/Priest of Osybus.jpg"
+					}
+				}
+			]
+		},
+		"alignment": [
+			"L",
+			"E"
+		],
+		"resist": [
+			{
+				"resist": [
+					"psychic"
+				]
+			},
+			{
+				"resist": [
+					"psychic"
+				]
+			}
+		],
+		"page": 2,
+		"immune": [
+			"radiant"
+		],
+		"skill": {
+			"stealth": "+8",
+			"religion": "+6",
+			"intimidation": "+6"
+		},
+		"reaction": [
+			{
+				"name": "Sentinel at Death's Door",
+				"entries": [
+					"As a reaction when you or an ally that you can see within 30 feet of you suffers a critical hit, you can turn that attack into a normal hit. Any effects triggered by a critical hit are canceled."
+				]
+			}
+		]
+	},
+	{
+		"name": "Haduuz Espada de Rosa",
+		"size": "M",
+		"environment": [
+			"any"
+		],
+		"type": {
+			"type": "undead",
+			"tags": [
+				"skeleton"
+			]
+		},
+		"source": "Bardomejorado",
+		"alignment": [
+			"N",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 18,
+				"from": [
+					"{@item +2 plate armor}"
+				]
+			}
+		],
+		"hp": {
+			"formula": "20d8 + 120",
+			"average": 210
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 11,
+		"dex": 14,
+		"con": 22,
+		"int": 12,
+		"wis": 16,
+		"cha": 8,
+		"save": {
+			"wis": "+8",
+			"con": "+11"
+		},
+		"resist": [
+			{
+				"resist": [
+					"bludgeoning",
+					"piercing",
+					"slashing"
+				],
+				"note": "from nonmagical weapons",
+				"cond": true
+			}
+		],
+		"immune": [
+			"necrotic",
+			"poison"
+		],
+		"conditionImmune": [
+			"charmed",
+			"exhaustion",
+			"paralyzed",
+			"petrified",
+			"poisoned"
+		],
+		"passive": 13,
+		"languages": [
+			"The languages it knew in life"
+		],
+		"cr": "15",
+		"page": 341,
+		"senses": [
+			"darkvision 120 ft."
+		],
+		"trait": [
+			{
+				"name": "Master Tactician",
+				"entries": [
+					"The Capitan de la Rosa and any skeletons within 30 feet of it have advantage on attack rolls against a creature if at least one of the skeleton's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+				]
+			},
+			{
+				"name": "Turning Defiance",
+				"entries": [
+					"The Capitan de la Rosa and any skeletons within 30 feet of it have advantage on saving throws against effects that turn undead."
+				]
+			},
+			{
+				"name": "Natures Corruptor",
+				"entries": [
+					"Every non Undead creature must substract his corruption points resistings Haduuz saving throws and reduce it's AC when attacked by Haduuz"
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The Capitan de la Rosa makes two dreadblade attacks."
+				]
+			},
+			{
+				"name": "DreadBlade",
+				"entries": [
+					"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) slashing damage plus 7 ({@damage 2d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 17} Constitution saving throw or its hp maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hp maximum to 0."
+				]
+			},
+			{
+				"name": "Grasp of the Grave {@recharge 5}",
+				"entries": [
+					"Each non-undeadcreature within 30 feet of the Capitan de la Rosa must succeed on a {@dc 16} Dexterity saving throw or be {@condition restrained} by ghostly, skeletal hands for 1 minute. A {@condition restrained} target takes 10 ({@damage 3d6}) necrotic damage at the start of each of its turns. A creature, including the target, can take its action to break the ghostly restraints by succeeding on a {@dc 16} Strength check."
+				]
+			}
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"fluff": {
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/CCodex/Monarchskeleton.jpg"
+					}
+				}
+			],
+			"entries": [
+				"{@i An undead monarch, tight white skin clinging to its skeletal visage and a crooked oversized crown dangling precariously from the top of its skull, stares with glee at the coming battle.}",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Undead King",
+									"entries": [
+										"Necromantic energy seeps from the monarch and warps the reality of the mortal world it corrupts. It brings all that appear before it to their knees in reverence. A powerful arcane necromancer could discover and unlock the ability to command armies of undead with the remains of a monarch skeleton, but such research risks madness."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dread Blade",
+									"entries": [
+										"The blade the monarch wields is a powerful and cursed weapon when in the hands of the monarch. Infused with corruption, it slices through what remains of a mortal coil"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ghostly Minions",
+									"entries": [
+										"The monarch skeleton can call upon the greatest warriors who have fallen before to rise and hold its enemies at bay. The monarch is often accompanied by a royal guard of skeletons eager to defend their sovereign."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Undead Nature",
+									"entries": [
+										"The monarch skeleton doesn't require air, food, drink, or sleep."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/CCodex/monarchskeleton_token.png",
+		"miscTags": [
+			"MW"
+		],
+		"damageTags": [
+			"S",
+			"N"
+		],
+		"senseTags": [
+			"SD"
+		],
+		"traitTags": [
+			"Turn Resistance"
+		],
+		"languageTags": [
+			"LF"
+		],
+		"conditionInflict": [
+			"restrained"
+		],
+		"isNamedCreature": true,
+		"legendaryActions": 3,
+		"legendary": [
+			{
+				"name": "DreadBlade",
+				"entries": [
+					"Make one DreadBlade attack."
+				]
+			},
+			{
+				"name": "Death Walk",
+				"entries": [
+					"Hazduul moves 30 feet without proovoking oportunitty attacks"
+				]
+			}
+		],
+		"bonus": [
+			{
+				"name": "Sovereign's Command",
+				"entries": [
+					"As a bonus action, the Capitan de la Rosa commands a skeleton within 30 feet of it to make one attack as a reaction against a creature the Capitan de la Rosa attacked this round."
+				]
+			}
+		]
+	},
+	{
+		"name": "Kas",
+		"source": "Bardomejorado",
+		"page": 318,
+		"size": "M",
+		"type": "undead",
+		"alignment": [
+			"L",
+			"G"
+		],
+		"ac": [
+			13
+		],
+		"hp": {
+			"average": 22,
+			"formula": "4d8 + 4"
+		},
+		"speed": {
+			"walk": 40
+		},
+		"str": 12,
+		"dex": 17,
+		"con": 12,
+		"int": 10,
+		"wis": 13,
+		"cha": 11,
+		"skill": {
+			"perception": "+3",
+			"stealth": "+5"
+		},
+		"passive": 10,
+		"languages": [
+			"Blink Dog",
+			"understands Sylvan but can't speak it"
+		],
+		"cr": "1/4",
+		"trait": [
+			{
+				"name": "Keen Hearing and Smell",
+				"entries": [
+					"The dog has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+				]
+			},
+			{
+				"name": "Undead Fortitude",
+				"entries": [
+					"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Bite",
+				"entries": [
+					"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+				]
+			},
+			{
+				"name": "Teleport {@recharge 4}",
+				"entries": [
+					"The dog magically teleports, along with any equipment it is wearing or carrying, up to 40 feet to an unoccupied space it can see. Before or after teleporting, the dog can make one bite attack."
+				]
+			}
+		],
+		"environment": [
+			"forest"
+		],
+		"soundClip": {
+			"type": "external",
+			"url": "https://5e.tools/audio/bestiary/blink-dog.mp3"
+		},
+		"traitTags": [
+			"Keen Senses",
+			"Undead Fortitude"
+		],
+		"actionTags": [
+			"Teleport"
+		],
+		"languageTags": [
+			"OTH",
+			"CS",
+			"S"
+		],
+		"damageTags": [
+			"P"
+		],
+		"miscTags": [
+			"MW"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"tokenUrl": "https://5e.tools/img/MM/Blink Dog.png",
+		"fluff": {
+			"name": "Blink Dog",
+			"source": "MM",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A blink dog takes its name from its ability to blink in and out of existence, a talent it uses to aid its attacks and to avoid harm. Blink dogs harbor a long-standing hatred for displacer beasts and attack them on sight."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MM/Blink Dog.jpg"
+					}
+				}
+			]
+		}
+	},
+	{
+		"name": "Pirate Revenant (Crossbow)",
+		"source": "Bardomejorado",
+		"size": "M",
+		"type": {
+			"type": "undead",
+			"tags": [
+				"any race"
+			]
+		},
+		"alignment": [
+			"A"
+		],
+		"ac": [
+			{
+				"ac": 15,
+				"from": [
+					"{@item leather armor|phb}"
+				]
+			}
+		],
+		"hp": {
+			"formula": "3d10 + 3",
+			"average": 19
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 11,
+		"dex": 14,
+		"con": 13,
+		"int": 12,
+		"wis": 12,
+		"cha": 8,
+		"passive": 11,
+		"languages": [
+			"any two languages"
+		],
+		"cr": "1/2",
+		"action": [
+			{
+				"name": "Hand Crossbow",
+				"entries": [
+					"{@atk mw} {@hit 4} to hit, reach 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+				]
+			}
+		],
+		"languageTags": [
+			"X"
+		],
+		"damageTags": [
+			"P"
+		],
+		"miscTags": [
+			"MW",
+			"RNG"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"tokenUrl": "https://5e.tools/img/MM/Noble.png",
+		"fluff": {
+			"name": "Noble",
+			"source": "MM",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners.",
+								"The noble's statistics can also be used to represent courtiers who aren't of noble birth."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MM/Noble.jpg"
+					}
+				}
+			]
+		},
+		"trait": [
+			{
+				"name": "Sea Legs",
+				"entries": [
+					"The pirate has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+				]
+			},
+			{
+				"name": "Steady Aim",
+				"entries": [
+					"The pirate get advantega on attack rolls if he doesn't move during his turn."
+				]
+			}
+		],
+		"resist": [
+			"necrotic"
+		],
+		"skill": {
+			"athletics": "+2",
+			"intimidation": "+1"
+		},
+		"save": {
+			"con": "+3"
+		}
+	},
+	{
+		"name": "Pirate Revenant (Rapier)",
+		"source": "Bardomejorado",
+		"size": "M",
+		"type": {
+			"type": "undead",
+			"tags": [
+				"any race"
+			]
+		},
+		"alignment": [
+			"A"
+		],
+		"ac": [
+			{
+				"ac": 15,
+				"from": [
+					"{@item leather armor|phb}"
+				]
+			}
+		],
+		"hp": {
+			"formula": "4d10 + 4",
+			"average": 26
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 11,
+		"dex": 14,
+		"con": 13,
+		"int": 12,
+		"wis": 12,
+		"cha": 8,
+		"passive": 11,
+		"languages": [
+			"any two languages"
+		],
+		"cr": "1/2",
+		"action": [
+			{
+				"name": "Rapier",
+				"entries": [
+					"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 2}) piercing damage."
+				]
+			}
+		],
+		"reaction": [
+			{
+				"name": "Parry",
+				"entries": [
+					"The pirate adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon."
+				]
+			}
+		],
+		"actionTags": [
+			"Parry"
+		],
+		"languageTags": [
+			"X"
+		],
+		"damageTags": [
+			"P"
+		],
+		"miscTags": [
+			"MW"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"tokenUrl": "https://5e.tools/img/MM/Noble.png",
+		"fluff": {
+			"name": "Noble",
+			"source": "MM",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners.",
+								"The noble's statistics can also be used to represent courtiers who aren't of noble birth."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MM/Noble.jpg"
+					}
+				}
+			]
+		},
+		"trait": [
+			{
+				"name": "Sea Legs",
+				"entries": [
+					"The pirate has advantage on ability checks and saving throws to resist being knocked {@condition prone}."
+				]
+			}
+		],
+		"resist": [
+			"necrotic"
+		],
+		"skill": {
+			"athletics": "+2",
+			"intimidation": "+1"
+		},
+		"save": {
+			"con": "+3"
+		}
+	},
+	{
+		"name": "Undead Dire Wolf",
+		"source": "Bardomejorado",
+		"page": 321,
+		"size": "L",
+		"type": "beast",
+		"alignment": [
+			"U"
+		],
+		"ac": [
+			{
+				"ac": 14,
+				"from": [
+					"natural armor"
+				]
+			}
+		],
+		"hp": {
+			"average": 37,
+			"formula": "5d10 + 10"
+		},
+		"speed": {
+			"walk": 50
+		},
+		"str": 17,
+		"dex": 15,
+		"con": 15,
+		"int": 3,
+		"wis": 12,
+		"cha": 7,
+		"skill": {
+			"perception": "+3",
+			"stealth": "+4"
+		},
+		"passive": 13,
+		"cr": "1",
+		"trait": [
+			{
+				"name": "Keen Hearing and Smell",
+				"entries": [
+					"The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+				]
+			},
+			{
+				"name": "Pack Tactics",
+				"entries": [
+					"The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+				]
+			},
+			{
+				"name": "Undead Fortitude",
+				"entries": [
+					"If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Bite",
+				"entries": [
+					"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+				]
+			}
+		],
+		"environment": [
+			"forest",
+			"hill"
+		],
+		"soundClip": {
+			"type": "external",
+			"url": "https://5e.tools/audio/bestiary/dire-wolf.mp3"
+		},
+		"traitTags": [
+			"Keen Senses",
+			"Pack Tactics",
+			"Undead Fortitude"
+		],
+		"damageTags": [
+			"P"
+		],
+		"miscTags": [
+			"MW"
+		],
+		"conditionInflict": [
+			"prone"
+		],
+		"tokenUrl": "https://5e.tools/img/MM/Dire Wolf.png"
+	}
+]

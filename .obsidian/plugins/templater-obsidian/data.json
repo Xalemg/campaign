@@ -1,0 +1,45 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Plantillas/Sencillas",
+  "templates_pairs": [
+    [
+      "lugares",
+      "[\"Isla principal\", \"zona\", \"mazmorra\", \"ciudad\", \"pueblo\"]"
+    ],
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": false,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "Scripts",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "1. Alamanac/15. NPCs",
+      "template": "Plantillas/Sencillas/NPC v2.md"
+    },
+    {
+      "folder": "1. Alamanac/11. Lugares/Ciudad",
+      "template": "Plantillas/Sencillas/Asentamiento.md"
+    },
+    {
+      "folder": "2. Campañas/Sesiones",
+      "template": "Plantillas/Sencillas/Sesión.md"
+    },
+    {
+      "folder": "1. Alamanac/14. Facciones",
+      "template": "Plantillas/Sencillas/Facción.md"
+    }
+  ],
+  "syntax_highlighting": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ]
+}

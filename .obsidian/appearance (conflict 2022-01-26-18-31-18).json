@@ -1,0 +1,16 @@
+{
+  "baseFontSize": 14,
+  "translucency": false,
+  "cssTheme": "ITS Theme",
+  "theme": "obsidian",
+  "baseFontSizeAction": false,
+  "enabledCssSnippets": [
+    "aside",
+    "table",
+    "images_adjustments",
+    "links sin titulo de fichero",
+    "kanban",
+    "mulfok-kanban-lists",
+    "DyD Wotc"
+  ]
+}

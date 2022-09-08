@@ -1,0 +1,495 @@
+{
+  "strategy": "default",
+  "matchStrategy": "prefix",
+  "maxNumberOfSuggestions": 5,
+  "maxNumberOfWordsAsPhrase": 3,
+  "minNumberOfCharactersTriggered": 0,
+  "minNumberOfWordsTriggeredPhrase": 3,
+  "complementAutomatically": true,
+  "delayMilliSeconds": 0,
+  "disableSuggestionsDuringImeOn": false,
+  "insertAfterCompletion": true,
+  "firstCharactersDisableSuggestions": ":/^",
+  "showMatchStrategy": true,
+  "showComplementAutomatically": true,
+  "showIndexingStatus": true,
+  "descriptionOnSuggestion": "Short",
+  "selectSuggestionKeys": "Enter",
+  "additionalCycleThroughSuggestionsKeys": "None",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "openSourceFileKey": "None",
+  "propagateEsc": false,
+  "enableCurrentFileComplement": true,
+  "currentFileMinNumberOfCharacters": 0,
+  "onlyComplementEnglishOnCurrentFileComplement": false,
+  "enableCurrentVaultComplement": false,
+  "currentVaultMinNumberOfCharacters": 0,
+  "includeCurrentVaultPathPrefixPatterns": "",
+  "excludeCurrentVaultPathPrefixPatterns": "",
+  "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
+  "enableCustomDictionaryComplement": false,
+  "customDictionaryPaths": "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt",
+  "columnDelimiter": "Tab",
+  "customDictionaryWordRegexPattern": "",
+  "delimiterToHideSuggestion": "",
+  "delimiterToDivideSuggestionsForDisplayFromInsertion": "",
+  "caretLocationSymbolAfterComplement": "",
+  "displayedTextSuffix": " => ...",
+  "enableInternalLinkComplement": true,
+  "suggestInternalLinkWithAlias": false,
+  "excludeInternalLinkPathPrefixPatterns": "",
+  "enableFrontMatterComplement": true,
+  "frontMatterComplementMatchStrategy": "inherit",
+  "insertCommaAfterFrontMatterCompletion": false,
+  "showLogAboutPerformanceInConsole": false,
+  "selectionHistoryTree": {
+    "5Kgs  de alimento.": {
+      "5Kgs  de alimento.": {
+        "frontMatter": {
+          "count": 12,
+          "lastUpdated": 1661891899945
+        }
+      }
+    },
+    "en su lugar": {
+      "en su lugar": {
+        "frontMatter": {
+          "count": 25,
+          "lastUpdated": 1662057958551
+        }
+      }
+    },
+    "la piedra y el metal": {
+      "la piedra y el metal": {
+        "frontMatter": {
+          "count": 5,
+          "lastUpdated": 1661938065992
+        }
+      }
+    },
+    "Chumipower": {
+      "Chumipower": {
+        "frontMatter": {
+          "count": 27,
+          "lastUpdated": 1662058901456
+        }
+      }
+    },
+    "NPC": {
+      "NPC": {
+        "frontMatter": {
+          "count": 5,
+          "lastUpdated": 1660750707156
+        }
+      }
+    },
+    "IslasShamal": {
+      "IslasShamal": {
+        "frontMatter": {
+          "count": 3,
+          "lastUpdated": 1660302570989
+        }
+      }
+    },
+    "Aretries": {
+      "Aretries": {
+        "frontMatter": {
+          "count": 41,
+          "lastUpdated": 1662058902960
+        }
+      }
+    },
+    "Hombre": {
+      "Hombre": {
+        "frontMatter": {
+          "count": 3,
+          "lastUpdated": 1660695041010
+        }
+      }
+    },
+    "LM": {
+      "LM": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1660750735010
+        }
+      }
+    },
+    "lugar": {
+      "lugar": {
+        "frontMatter": {
+          "count": 11,
+          "lastUpdated": 1661960444716
+        }
+      }
+    },
+    "Zona": {
+      "Zona": {
+        "frontMatter": {
+          "count": 5,
+          "lastUpdated": 1661697365121
+        }
+      }
+    },
+    "NM": {
+      "NM": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1660228081861
+        }
+      }
+    },
+    "Templado y humedo": {
+      "Templado y humedo": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1660228130371
+        }
+      }
+    },
+    "Mujer": {
+      "Mujer": {
+        "frontMatter": {
+          "count": 4,
+          "lastUpdated": 1661958491692
+        }
+      }
+    },
+    "Dragon": {
+      "Dragon": {
+        "frontMatter": {
+          "count": 3,
+          "lastUpdated": 1661649811875
+        }
+      }
+    },
+    "Lider": {
+      "Lider": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1661649814652
+        }
+      }
+    },
+    "Miembro": {
+      "Miembro": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1660515095407
+        }
+      }
+    },
+    "CM": {
+      "CM": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1661649819742
+        }
+      }
+    },
+    "Punto de interes": {
+      "Punto de interes": {
+        "frontMatter": {
+          "count": 3,
+          "lastUpdated": 1661959998867
+        }
+      }
+    },
+    "punto_de_interes": {
+      "punto_de_interes": {
+        "frontMatter": {
+          "count": 4,
+          "lastUpdated": 1661960395263
+        }
+      }
+    },
+    "Edificio": {
+      "Edificio": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1660516770158
+        }
+      }
+    },
+    "Ust Natha": {
+      "Ust Natha": {
+        "frontMatter": {
+          "count": 9,
+          "lastUpdated": 1661964065194
+        }
+      }
+    },
+    "NB": {
+      "NB": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1660517882702
+        }
+      }
+    },
+    "region": {
+      "region": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1660693097888
+        }
+      }
+    },
+    "Gran Dragon": {
+      "Gran Dragon": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1660695047557
+        }
+      }
+    },
+    "1 oz.": {
+      "1 oz.": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1660740475955
+        }
+      }
+    },
+    "5 lb.": {
+      "5 lb.": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1660740479819
+        }
+      }
+    },
+    "Aretries/Infraoscuridad": {
+      "Aretries/Infraoscuridad": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1660750720272
+        }
+      }
+    },
+    "Ganar pasta": {
+      "Ganar pasta": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661098153934
+        }
+      }
+    },
+    "Islas Shamal": {
+      "Islas Shamal": {
+        "frontMatter": {
+          "count": 4,
+          "lastUpdated": 1661697343140
+        }
+      }
+    },
+    "Celulas organizadas": {
+      "Celulas organizadas": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661098167314
+        }
+      }
+    },
+    "faccion": {
+      "faccion": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1661677535181
+        }
+      }
+    },
+    "hongos": {
+      "hongos": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661104222631
+        }
+      }
+    },
+    "Ignorante": {
+      "Ignorante": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661649917701
+        }
+      }
+    },
+    "Embajada de los cinco colores": {
+      "Embajada de los cinco colores": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661650133597
+        }
+      }
+    },
+    "azul": {
+      "azul": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661650898762
+        }
+      }
+    },
+    "Bolgog": {
+      "Bolgog": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1661941207177
+        }
+      }
+    },
+    "zona": {
+      "zona": {
+        "frontMatter": {
+          "count": 3,
+          "lastUpdated": 1661849074600
+        }
+      }
+    },
+    "Interplanar": {
+      "Interplanar": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661697332419
+        }
+      }
+    },
+    "Infraoscuridad": {
+      "Infraoscuridad": {
+        "frontMatter": {
+          "count": 4,
+          "lastUpdated": 1661938244993
+        }
+      }
+    },
+    "[[Darrialen]] tiene una pistola debajo del mostrador": {
+      "[[Darrialen]] tiene una pistola debajo del mostrador": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661703642069
+        }
+      }
+    },
+    "Lichdom": {
+      "Lichdom": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661704032059
+        }
+      }
+    },
+    "Natha": {
+      "Natha": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1661892050027
+        }
+      }
+    },
+    "Ninguno": {
+      "Ninguno": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661852501905
+        }
+      }
+    },
+    "Item": {
+      "Item": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661891358885
+        }
+      }
+    },
+    "Ust": {
+      "Ust": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661892048575
+        }
+      }
+    },
+    "Tejedoras de la Reina": {
+      "Tejedoras de la Reina": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661937307102
+        }
+      }
+    },
+    "Jerarquica": {
+      "Jerarquica": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1661964160453
+        }
+      }
+    },
+    "Drow": {
+      "Drow": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661958493875
+        }
+      }
+    },
+    "Demoniaca": {
+      "Demoniaca": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661960012097
+        }
+      }
+    },
+    "Muy Alto": {
+      "Muy Alto": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661960114697
+        }
+      }
+    },
+    "ciudad": {
+      "ciudad": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1661964780086
+        }
+      }
+    },
+    "Otros": {
+      "Otros": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1662058911828
+        }
+      }
+    },
+    "artefacto": {
+      "artefacto": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1662058914862
+        }
+      }
+    },
+    "Homebrew": {
+      "Homebrew": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1662059092814
+        }
+      }
+    },
+    "Isla de Altalos": {
+      "Isla de Altalos": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1662622978530
+        }
+      }
+    }
+  }
+}

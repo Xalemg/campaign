@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "192297b4ba9d20fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "56efec8f1d9f6da1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1. Alamanac/Aretries/Islas Shamal/Historia de las Islas/Historia de las Islas.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0c15f4fd136b8bee",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3b3f661f9adfd132",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "57845b2c5753b268",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "4c7bccc57b3e8ceb",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "95c02c5f9d4a8e1b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0817edd85e2c20c0",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "1. Alamanac/Aretries/Islas Shamal/Historia de las Islas/Historia de las Islas.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "6deb84a35314f96e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "1. Alamanac/Aretries/Islas Shamal/Historia de las Islas/Historia de las Islas.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "5de4f6ee7a71fac7",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "1. Alamanac/Aretries/Islas Shamal/Historia de las Islas/Historia de las Islas.md"
+          }
+        }
+      },
+      {
+        "id": "361568322407a50d",
+        "type": "leaf",
+        "state": {
+          "type": "DICE_ROLLER_VIEW",
+          "state": {}
+        }
+      },
+      {
+        "id": "66517ee09c685ddc",
+        "type": "leaf",
+        "state": {
+          "type": "initiative-tracker-view",
+          "state": {}
+        }
+      },
+      {
+        "id": "89345028387fe28d",
+        "type": "leaf",
+        "state": {
+          "type": "FANTASY_CALENDAR",
+          "state": {}
+        }
+      },
+      {
+        "id": "d83fc96c6e6bee04",
+        "type": "leaf",
+        "state": {
+          "type": "initiative-tracker-creature-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 4
+  },
+  "active": "56efec8f1d9f6da1",
+  "lastOpenFiles": [
+    "1. Alamanac/Aretries/Islas Shamal/Historia de las Islas/Historia de las Islas.md",
+    "1. Alamanac/Aretries/Islas Shamal/Islas Shamal.md",
+    "1. Alamanac/Aretries/Historia/Historia.md",
+    "1. Alamanac/Panteón/Panteón.md",
+    "2. Campañas/Sesiones/Sesiones.md",
+    "1. Alamanac/Aretries/Aretries.md",
+    "1. Alamanac/Lugares/Lugares.md",
+    "1. Alamanac/NPCs/NPCs.md",
+    "1. Alamanac/Facciones/Facciones.md",
+    "2. Campañas/Sesiones/Sesión 20 Chumipower( 2022-01-12).md"
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "addToDefaultIfMissing": true,
+  "calendars": [
+    {
+      "name": "Calendario Shamalino",
+      "description": "El calendario Shamalino basa su comienzo a la creación de la Mancomunidad del viento, aunque su simplicidad provoco su adaptacion en muchos territores cincindadntes",
+      "id": "ID_4b8b88a81979",
+      "static": {
+        "incrementDay": false,
+        "firstWeekDay": 0,
+        "overflow": true,
+        "weekdays": [
+          {
+            "type": "day",
+            "name": "Lunes",
+            "id": "ID_9b69fbcb4b7b"
+          },
+          {
+            "type": "day",
+            "name": "Martes",
+            "id": "ID_69bbc9bbe9fa"
+          },
+          {
+            "type": "day",
+            "name": "Miercoles",
+            "id": "ID_2a0ab989da2b"
+          },
+          {
+            "type": "day",
+            "name": "Jueves",
+            "id": "ID_2a2909a82b38"
+          },
+          {
+            "type": "day",
+            "name": "Viernes",
+            "id": "ID_9849a8b9385b"
+          },
+          {
+            "type": "day",
+            "name": "Sabado",
+            "id": "ID_18aa29e9da4b"
+          },
+          {
+            "type": "day",
+            "name": "Domingo",
+            "id": "ID_eb8b3b3969ea"
+          }
+        ],
+        "months": [
+          {
+            "type": "month",
+            "name": "Enero",
+            "length": 31,
+            "id": "ID_8829fae83949"
+          },
+          {
+            "type": "month",
+            "name": "Febrero",
+            "length": 28,
+            "id": "ID_6bb9c88a3889"
+          },
+          {
+            "type": "month",
+            "name": "Marzo",
+            "length": 31,
+            "id": "ID_2b4a08d81958"
+          },
+          {
+            "type": "month",
+            "name": "Abril",
+            "length": 30,
+            "id": "ID_1aab1b5afbfa"
+          },
+          {
+            "type": "month",
+            "name": "Mayo",
+            "length": 31,
+            "id": "ID_78b8bbd96ac9"
+          },
+          {
+            "type": "month",
+            "name": "Junio",
+            "length": 30,
+            "id": "ID_fad9c8eb9bf9"
+          },
+          {
+            "type": "month",
+            "name": "Julio",
+            "length": 31,
+            "id": "ID_ebba3adb3a09"
+          },
+          {
+            "type": "month",
+            "name": "Agosto",
+            "length": 31,
+            "id": "ID_780a9849c8b8"
+          },
+          {
+            "type": "month",
+            "name": "Septiembre",
+            "length": 30,
+            "id": "ID_39085a5afb48"
+          },
+          {
+            "type": "month",
+            "name": "Octubre",
+            "length": 31,
+            "id": "ID_6a5969582908"
+          },
+          {
+            "type": "month",
+            "name": "Noviembre",
+            "length": 30,
+            "id": "ID_4b498a39caca"
+          },
+          {
+            "type": "month",
+            "name": "Diciembre",
+            "length": 31,
+            "id": "ID_f8697a5b2a19"
+          }
+        ],
+        "moons": [],
+        "displayMoons": true,
+        "leapDays": [
+          {
+            "id": "ID_b94b0b0bb9eb",
+            "name": "Leap Day",
+            "interval": [
+              {
+                "interval": 4,
+                "exclusive": false,
+                "ignore": false
+              }
+            ],
+            "intercalary": false,
+            "timespan": 1,
+            "offset": 4,
+            "type": "leapday"
+          }
+        ],
+        "eras": []
+      },
+      "current": {
+        "day": 9,
+        "month": 11,
+        "year": 784
+      },
+      "events": [
+        {
+          "name": "Caida de Freya y Eileen",
+          "description": "Cayeron luchando con Hazduul",
+          "date": {
+            "year": 784,
+            "month": 11,
+            "day": 8
+          },
+          "id": "ID_5a3b2a29883b",
+          "note": null,
+          "category": null
+        },
+        {
+          "name": "Abandono de Aryn",
+          "description": "Aryn se va a buscar el apoyo de la guardia del Triton para vigilar la [[Isla de Riven]]",
+          "date": {
+            "day": 9,
+            "month": 11,
+            "year": 784
+          },
+          "id": "ID_8a0a3b58fbda",
+          "note": null,
+          "category": null
+        }
+      ],
+      "categories": [],
+      "displayWeeks": false
+    }
+  ],
+  "configDirectory": null,
+  "currentCalendar": null,
+  "dailyNotes": false,
+  "dateFormat": "YYYY-MM-DD",
+  "defaultCalendar": "ID_4b8b88a81979",
+  "eventPreview": false,
+  "exit": {
+    "saving": false,
+    "event": false,
+    "calendar": false
+  },
+  "eventFrontmatter": false,
+  "parseDates": false,
+  "settingsToggleState": {
+    "calendars": false,
+    "events": false
+  },
+  "showIntercalary": false,
+  "version": {
+    "major": null,
+    "minor": null,
+    "patch": null
+  },
+  "path": "/"
+}

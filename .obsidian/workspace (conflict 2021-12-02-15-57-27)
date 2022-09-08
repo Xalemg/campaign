@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "b986d6cefa3ba9a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2e6e65832dd32e6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Plantillas/NPC/Tablas_aleatorias.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "18dad42db3c134d2",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "96a7d7abf78b97e8",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "6d161c9eb6d1797c",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "cd2cebccbd2b0f81",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "e40e1bd1a0da974b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "51efc8192f369e91",
+        "type": "leaf",
+        "state": {
+          "type": "todo",
+          "state": {}
+        }
+      },
+      {
+        "id": "7435d232d0b03849",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Plantillas/NPC/Tablas_aleatorias.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "1cd4401fd834b46d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Plantillas/NPC/Tablas_aleatorias.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c2cbe880e8886494",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Plantillas/NPC/Tablas_aleatorias.md"
+          }
+        }
+      },
+      {
+        "id": "5e0cc8ca6d424425",
+        "type": "leaf",
+        "state": {
+          "type": "DICE_ROLLER_VIEW",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "a2e6e65832dd32e6",
+  "lastOpenFiles": [
+    "Plantillas/NPC/Tablas_aleatorias.md",
+    "Aventuras de la Chumipower/Sesiones/Sesión 18.md",
+    "Aventuras de la Chumipower/Aventuras de la Chumipower.md",
+    "Plantillas/NPC/NPC.md",
+    "Aretries/NPCs/Untitled.md",
+    "Aretries/NPCs/NPCs.md",
+    "Aretries/Islas Shamal/Lugares/Islas/Islas.md",
+    "Aretries/Islas Shamal/Lugares/Islas/Isla de Bas'loch y los mares del Sur/Isla de Bas'loch y los mares del Sur.md",
+    "Aretries/Islas Shamal/Lugares/Islas/Isla de Altalos/Isla de Altalos.md",
+    "Aretries/Islas Shamal/Lugares/Islas/Isla de Adur/Isla de Adur.md"
+  ]
+}
